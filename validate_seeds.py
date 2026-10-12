@@ -222,7 +222,14 @@ def evaluate_tagger(held_out_records, train_records):
 
 
 def main():
-    seed_file = DATA_DIR / "seed_reviews.txt"
+    import argparse
+    parser = argparse.ArgumentParser(description="Evaluate ground-truth seed reviews against LLM/classifier.")
+    parser.add_argument("--seed", type=int, default=42, help="Random seed for train/test split (default: 42)")
+    parser.add_argument("--train-size", type=int, default=40, help="Number of few-shot training examples (default: 40)")
+    parser.add_argument("--file", type=str, default=str(DATA_DIR / "seed_reviews.txt"), help="Path to seed reviews file")
+    args = parser.parse_args()
+
+    seed_file = Path(args.file)
     file_size = seed_file.stat().st_size
     with open(seed_file, 'r', encoding='utf-8') as f:
         lines = [line.strip() for line in f if line.strip()]
@@ -231,7 +238,7 @@ def main():
     
     records = parse_seed_file(seed_file)
     print("=" * 80)
-    print("GATE 1: SEED REVIEW PARSING & HELD-OUT VALIDATION (N = 110)")
+    print(f"GATE 1: SEED REVIEW PARSING & HELD-OUT VALIDATION (N = {len(records)})")
     print("=" * 80)
     print(f"File Path: {seed_file}")
     print(f"File Size: {file_size:,} bytes")
@@ -239,12 +246,12 @@ def main():
     print(f"Last Line: {last_line}")
     print(f"Total [R###] blocks parsed: {len(records)}")
     
-    # Split train vs held-out with fixed seed
-    np.random.seed(42)
+    # Split train vs held-out with configurable seed and split
+    np.random.seed(args.seed)
     indices = np.random.permutation(len(records))
     
-    train_idx = indices[:40]
-    test_idx = indices[40:110]
+    train_idx = indices[:args.train_size]
+    test_idx = indices[args.train_size:]
         
     train_set = [records[i] for i in train_idx]
     held_out_set = [records[i] for i in test_idx]
