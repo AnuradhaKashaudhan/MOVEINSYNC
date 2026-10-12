@@ -31,6 +31,11 @@ jobs:
         run: |
           python run_all.py
 
+      - name: Verify numbers & data integrity (Gate 4)
+        run: |
+          python verify_numbers.py
+          python test_data_integrity.py
+
       - name: Upload HTML report artifact
         uses: actions/upload-artifact@v4
         with:
