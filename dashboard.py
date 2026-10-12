@@ -10,6 +10,7 @@ if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 from packaging import version as pkg_version
 import ui_theme
+import html
 
 # Page Configuration
 st.set_page_config(
@@ -79,15 +80,16 @@ hist_1_2 = hist_1 + hist_2
 pct_1_2 = (hist_1_2 / tot_ratings) * 100
 
 # Sidebar Configuration
-st.sidebar.markdown("""
-<div style="display:flex; align-items:center; gap:10px; margin-bottom: 5px;">
-    <span style="font-size: 26px;">🚗</span>
-    <span style="font-size: 20px; font-weight: 800; color: #ffffff; letter-spacing: -0.02em;">MoveInSync Intel</span>
-</div>
-<div style="font-size: 12px; color: #94a3b8; margin-bottom: 18px;">
-    Play Store Feedback Intelligence Pipeline
-</div>
-""", unsafe_allow_html=True)
+st.sidebar.markdown(
+    '<div style="display:flex; align-items:center; gap:10px; margin-bottom: 5px;">'
+    '<span style="font-size: 26px;">🚗</span>'
+    '<span style="font-size: 20px; font-weight: 800; color: inherit; letter-spacing: -0.02em;">MoveInSync Intel</span>'
+    '</div>'
+    '<div style="font-size: 12px; color: inherit; opacity: 0.75; margin-bottom: 18px;">'
+    'Play Store Feedback Intelligence Pipeline'
+    '</div>',
+    unsafe_allow_html=True
+)
 
 # Refresh Button with Spinner and Toast
 if st.sidebar.button("🔄 Refresh Data", use_container_width=True):
@@ -103,47 +105,74 @@ if st.sidebar.button("🔄 Refresh Data", use_container_width=True):
 df_recent = df_reviews[~df_reviews['is_legacy']].copy() if ('is_legacy' in df_reviews.columns and not df_reviews.empty) else df_reviews.copy()
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("<div style='font-size: 13px; font-weight: 700; color: #e2e8f0; margin-bottom: 8px;'>FILTERS</div>", unsafe_allow_html=True)
+st.sidebar.markdown("<div style='font-size: 13px; font-weight: 700; color: inherit; opacity: 0.85; margin-bottom: 8px;'>FILTERS</div>", unsafe_allow_html=True)
 
-# Date Filter: Default = full 24 months of data (min to max date)
+# Date bounds for full dataset range
 if not df_recent.empty and 'at_dt' in df_recent.columns:
     min_date = df_recent['at_dt'].min().date()
     max_date = df_recent['at_dt'].max().date()
+else:
+    min_date = None
+    max_date = None
+
+all_scores = [1, 2, 3, 4, 5]
+available_versions = sorted([str(v) for v in df_recent['reviewCreatedVersion'].dropna().unique()], reverse=True)
+
+# Reset filters callback
+def reset_filters():
+    if min_date and max_date:
+        st.session_state["filter_dates"] = (min_date, max_date)
+    st.session_state["filter_scores"] = all_scores
+    st.session_state["filter_versions"] = []
+
+if "filter_scores" not in st.session_state:
+    st.session_state["filter_scores"] = all_scores
+if "filter_versions" not in st.session_state:
+    st.session_state["filter_versions"] = []
+if min_date and max_date and "filter_dates" not in st.session_state:
+    st.session_state["filter_dates"] = (min_date, max_date)
+
+# Date Filter: Default = full range of data (min to max date)
+if min_date and max_date:
     selected_dates = st.sidebar.date_input(
         "Date Range",
-        value=(min_date, max_date),
+        key="filter_dates",
         min_value=min_date,
         max_value=max_date,
-        help="Defaults to the full 24-month recent analysis window."
+        help="Defaults to the full date range of the dataset."
     )
 else:
     selected_dates = None
 
-# Rating Filter: Default = all stars
-all_scores = [1, 2, 3, 4, 5]
+# Rating Filter: Default = all five stars
 selected_scores = st.sidebar.multiselect(
     "Star Rating",
     options=all_scores,
-    default=all_scores,
+    key="filter_scores",
     help="Select one or more ratings to filter."
 )
 
 # Version Filter: Default = empty (empty means all versions)
-available_versions = sorted([str(v) for v in df_recent['reviewCreatedVersion'].dropna().unique()], reverse=True)
 selected_versions = st.sidebar.multiselect(
     "App Version (Empty = All)",
     options=available_versions,
-    default=[],
+    key="filter_versions",
     help="Leave empty to include all versions."
 )
 
+# Reset filters button
+st.sidebar.button("Reset filters", on_click=reset_filters, use_container_width=True)
+
 # Apply Filters
 filtered_df = df_recent.copy()
-if selected_dates and len(selected_dates) == 2:
-    filtered_df = filtered_df[
-        (filtered_df['at_dt'].dt.date >= selected_dates[0]) &
-        (filtered_df['at_dt'].dt.date <= selected_dates[1])
-    ]
+if selected_dates:
+    if len(selected_dates) == 2:
+        filtered_df = filtered_df[
+            (filtered_df['at_dt'].dt.date >= selected_dates[0]) &
+            (filtered_df['at_dt'].dt.date <= selected_dates[1])
+        ]
+    elif len(selected_dates) == 1:
+        filtered_df = filtered_df[filtered_df['at_dt'].dt.date >= selected_dates[0]]
 
 if selected_scores:
     filtered_df = filtered_df[filtered_df['score'].isin(selected_scores)]
@@ -152,13 +181,14 @@ if selected_versions:
     filtered_df = filtered_df[filtered_df['reviewCreatedVersion'].astype(str).isin(selected_versions)]
 
 # Prominent Matching Reviews Count in Sidebar
-st.sidebar.markdown(f"""
-<div style="background: rgba(15, 23, 42, 0.7); border: 1px solid rgba(6, 182, 212, 0.25); border-radius: 10px; padding: 12px; margin-top: 15px; text-align: center;">
-    <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: #94a3b8; font-weight: 700;">Matching Reviews</div>
-    <div style="font-size: 26px; font-weight: 800; color: #38bdf8; margin: 2px 0;">{len(filtered_df):,}</div>
-    <div style="font-size: 11.5px; color: #64748b;">out of {len(df_recent):,} in recent window</div>
-</div>
-""", unsafe_allow_html=True)
+st.sidebar.markdown(
+    f'<div style="background: rgba(127, 127, 127, 0.12); border: 1px solid rgba(127, 127, 127, 0.25); border-radius: 10px; padding: 12px; margin-top: 15px; text-align: center;">'
+    f'<div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: inherit; opacity: 0.75; font-weight: 700;">Matching Reviews</div>'
+    f'<div style="font-size: 26px; font-weight: 800; color: var(--primary-color, #06b6d4); margin: 2px 0;">{len(filtered_df):,}</div>'
+    f'<div style="font-size: 11.5px; color: inherit; opacity: 0.65;">out of {len(df_recent):,} in recent window</div>'
+    f'</div>',
+    unsafe_allow_html=True
+)
 
 # Navigation
 st.sidebar.markdown("---")
@@ -179,7 +209,7 @@ if choice == "📊 Overview":
     # Hero Animated Banner
     ui_theme.render_hero_banner(headline_rating=round(headline_rating, 2))
     
-    # KPI Glass Cards with Count-up Animations
+    # KPI Glass Cards
     rep_12 = summary_data.get("developer_replies", {}).get("one_two_star", {})
     kpi_cards = [
         {
@@ -233,7 +263,7 @@ if choice == "📊 Overview":
     col_chart1, col_chart2 = st.columns([1.1, 1])
     
     with col_chart1:
-        st.markdown("<div style='font-size:16px; font-weight:700; color:#f8fafc; margin-bottom:12px;'>Official Rating Histogram Breakdown</div>", unsafe_allow_html=True)
+        st.markdown("<div style='font-size:16px; font-weight:700; color:inherit; margin-bottom:12px;'>Official Rating Histogram Breakdown</div>", unsafe_allow_html=True)
         # Horizontal bars with CSS width transition
         hist_bars = [
             {
@@ -272,7 +302,7 @@ if choice == "📊 Overview":
         ui_theme.render_horizontal_bars(hist_bars, max_val=100)
         
     with col_chart2:
-        st.markdown("<div style='font-size:16px; font-weight:700; color:#f8fafc; margin-bottom:12px;'>24-Month Monthly Review Volume</div>", unsafe_allow_html=True)
+        st.markdown("<div style='font-size:16px; font-weight:700; color:inherit; margin-bottom:12px;'>24-Month Monthly Review Volume</div>", unsafe_allow_html=True)
         if not df_recent.empty and 'at_dt' in df_recent.columns:
             m_vol = df_recent.set_index('at_dt').resample('ME')['reviewId'].count().rename("Reviews")
             st.line_chart(m_vol, color="#06b6d4")
@@ -282,12 +312,13 @@ if choice == "📊 Overview":
 # 2. WHY RATINGS ARE LOW
 # =============================================================================
 elif choice == "⚠️ Why ratings are low":
-    st.markdown("""
-    <div style="margin-bottom: 20px;">
-        <h1 style="font-size: 28px; font-weight: 800; color: #ffffff; margin-bottom: 6px;">Why Ratings Are Low: Root Cause Analysis</h1>
-        <p style="color: #94a3b8; font-size: 14.5px;">Detailed breakdown of friction themes among 1-2★ reviews across the last 24 months (N = 1,671).</p>
-    </div>
-    """, unsafe_allow_html=True)
+    st.markdown(
+        '<div style="margin-bottom: 20px;">'
+        '<h1 style="font-size: 28px; font-weight: 800; color: inherit; margin-bottom: 6px;">Why Ratings Are Low: Root Cause Analysis</h1>'
+        '<p style="color: inherit; opacity: 0.75; font-size: 14.5px;">Detailed breakdown of friction themes among 1-2★ reviews across the last 24 months (N = 1,671).</p>'
+        '</div>',
+        unsafe_allow_html=True
+    )
     
     themes_reason = summary_data.get("theme_shares_reasons_only", [])
     themes_all = summary_data.get("theme_shares_all_1_2", [])
@@ -301,7 +332,7 @@ elif choice == "⚠️ Why ratings are low":
         st.caption("Excludes NO_DETAIL and POSITIVE to focus strictly on actionable commuter friction.")
         
         if themes_reason:
-            # Animated horizontal bars for top 8 themes
+            # Horizontal bars for top 8 themes
             theme_bars = []
             palette = [
                 "linear-gradient(90deg, #ef4444, #dc2626)",
@@ -331,14 +362,14 @@ elif choice == "⚠️ Why ratings are low":
             ui_theme.render_horizontal_bars(theme_bars, max_val=max(r['share_pct'] for r in themes_reason[:8]) * 1.15)
             
             # Key Quotes in Expanders
-            st.markdown("<div style='margin-top: 25px; margin-bottom: 12px; font-weight: 700; color: #ffffff;'>Voice of the Commuter: Key Quotes by Theme</div>", unsafe_allow_html=True)
+            st.markdown("<div style='margin-top: 25px; margin-bottom: 12px; font-weight: 700; color: inherit;'>Voice of the Commuter: Key Quotes by Theme</div>", unsafe_allow_html=True)
             for r in themes_reason[:6]:
                 th_name = r['theme']
                 q_list = theme_quotes.get(th_name, [])
                 with st.expander(f"💬 {th_name} — {r['count']} reviews ({r['share_pct']:.1f}% of reasons)"):
                     if q_list:
                         for q in q_list[:3]:
-                            st.markdown(f'<div class="quote-box">"{q.strip()}"</div>', unsafe_allow_html=True)
+                            st.markdown(f'<div class="quote-box">"{html.escape(q.strip())}"</div>', unsafe_allow_html=True)
                     else:
                         st.info("No curated quotes available.")
                         
@@ -383,12 +414,13 @@ elif choice == "⚠️ Why ratings are low":
 # 3. RELEASES
 # =============================================================================
 elif choice == "🚀 Releases":
-    st.markdown("""
-    <div style="margin-bottom: 20px;">
-        <h1 style="font-size: 28px; font-weight: 800; color: #ffffff; margin-bottom: 6px;">Release Quality & App Version Diagnostics</h1>
-        <p style="color: #94a3b8; font-size: 14.5px;">Tracking 1-2★ share and 95% confidence intervals chronologically across semver builds (Min 100 reviews). No sample averages.</p>
-    </div>
-    """, unsafe_allow_html=True)
+    st.markdown(
+        '<div style="margin-bottom: 20px;">'
+        '<h1 style="font-size: 28px; font-weight: 800; color: inherit; margin-bottom: 6px;">Release Quality & App Version Diagnostics</h1>'
+        '<p style="color: inherit; opacity: 0.75; font-size: 14.5px;">Tracking 1-2★ share and 95% confidence intervals chronologically across semver builds (Min 100 reviews). No sample averages.</p>'
+        '</div>',
+        unsafe_allow_html=True
+    )
     
     versions = summary_data.get("version_analysis_unbiased", [])
     spikes = summary_data.get("spikes_detected", [])
@@ -442,12 +474,13 @@ elif choice == "🚀 Releases":
 # 4. SUPPORT AND REPLIES
 # =============================================================================
 elif choice == "💬 Support & replies":
-    st.markdown("""
-    <div style="margin-bottom: 20px;">
-        <h1 style="font-size: 28px; font-weight: 800; color: #ffffff; margin-bottom: 6px;">Developer Support & Customer Engagement</h1>
-        <p style="color: #94a3b8; font-size: 14.5px;">Analysis of developer responses, reply latency, canned templates, and near-duplicate feedback.</p>
-    </div>
-    """, unsafe_allow_html=True)
+    st.markdown(
+        '<div style="margin-bottom: 20px;">'
+        '<h1 style="font-size: 28px; font-weight: 800; color: inherit; margin-bottom: 6px;">Developer Support & Customer Engagement</h1>'
+        '<p style="color: inherit; opacity: 0.75; font-size: 14.5px;">Analysis of developer responses, reply latency, canned templates, and near-duplicate feedback.</p>'
+        '</div>',
+        unsafe_allow_html=True
+    )
     
     rep = summary_data.get("developer_replies", {})
     r12 = rep.get("one_two_star", {})
@@ -455,7 +488,7 @@ elif choice == "💬 Support & replies":
     canned = rep.get("canned_replies", {})
     dups = summary_data.get("near_duplicates", {})
     
-    # 3 Animated Stat Cards
+    # Stat Cards
     support_cards = [
         {
             "label": "1-2★ Developer Reply Rate",
@@ -489,7 +522,7 @@ elif choice == "💬 Support & replies":
     
     col_s1, col_s2 = st.columns(2)
     with col_s1:
-        st.markdown("<div style='font-size: 16px; font-weight: 700; color: #ffffff; margin-bottom: 10px;'>Response Rate by Rating Tier</div>", unsafe_allow_html=True)
+        st.markdown("<div style='font-size: 16px; font-weight: 700; color: inherit; margin-bottom: 10px;'>Response Rate by Rating Tier</div>", unsafe_allow_html=True)
         tier_bars = [
             {
                 "label": "1-2★ Reviews",
@@ -509,7 +542,7 @@ elif choice == "💬 Support & replies":
         ui_theme.render_horizontal_bars(tier_bars, max_val=20)
         
     with col_s2:
-        st.markdown("<div style='font-size: 16px; font-weight: 700; color: #ffffff; margin-bottom: 10px;'>Flagged Near-Duplicate Reviews (Cosine > 0.85)</div>", unsafe_allow_html=True)
+        st.markdown("<div style='font-size: 16px; font-weight: 700; color: inherit; margin-bottom: 10px;'>Flagged Near-Duplicate Reviews (Cosine > 0.85)</div>", unsafe_allow_html=True)
         st.caption(f"Total review pairs detected (>=15 words): {dups.get('total_pairs_flagged', 0)} (possible templated text, not verified)")
         if dups.get("sample_pairs"):
             for pair in dups["sample_pairs"][:3]:
@@ -524,20 +557,22 @@ elif choice == "💬 Support & replies":
 # 5. REVIEW EXPLORER
 # =============================================================================
 elif choice == "🔍 Review explorer":
-    st.markdown("""
-    <div style="margin-bottom: 20px;">
-        <h1 style="font-size: 28px; font-weight: 800; color: #ffffff; margin-bottom: 6px;">Review Explorer</h1>
-        <p style="color: #94a3b8; font-size: 14.5px;">Search and explore anonymized user reviews with multi-dimensional filtering.</p>
-    </div>
-    """, unsafe_allow_html=True)
+    st.markdown(
+        '<div style="margin-bottom: 20px;">'
+        '<h1 style="font-size: 28px; font-weight: 800; color: inherit; margin-bottom: 6px;">Review Explorer</h1>'
+        '<p style="color: inherit; opacity: 0.75; font-size: 14.5px;">Search and explore anonymized user reviews with multi-dimensional filtering.</p>'
+        '</div>',
+        unsafe_allow_html=True
+    )
     
     # Filter summary ribbon
-    st.markdown(f"""
-    <div class="filter-ribbon">
-        <div>Matching Reviews: <strong>{len(filtered_df):,}</strong></div>
-        <div style="font-size: 12px; color: #94a3b8;">Privacy Gate: Anonymized hashes only (Zero PII)</div>
-    </div>
-    """, unsafe_allow_html=True)
+    st.markdown(
+        f'<div class="filter-ribbon">'
+        f'<div>Matching Reviews: <strong>{len(filtered_df):,}</strong></div>'
+        f'<div style="font-size: 12px; color: inherit; opacity: 0.75;">Privacy Gate: Anonymized hashes only (Zero PII)</div>'
+        f'</div>',
+        unsafe_allow_html=True
+    )
     
     query = st.text_input("🔍 Search review text...", placeholder="e.g. OTP, crash, driver location, no show...")
     df_display = filtered_df.copy()
