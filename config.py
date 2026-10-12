@@ -1,32 +1,42 @@
+"""
+Configuration settings, directory paths, and taxonomy definitions
+for the MoveInSync Play Store Reviews Intelligence Pipeline.
+"""
+
 import os
 from pathlib import Path
+from typing import Dict, List, Optional
 from dotenv import load_dotenv
 
-# Paths
-BASE_DIR = Path(__file__).resolve().parent
+# Base Directory & Environment
+BASE_DIR: Path = Path(__file__).resolve().parent
 load_dotenv(BASE_DIR / ".env")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
-DATA_DIR = BASE_DIR / "data"
-RAW_DIR = DATA_DIR / "raw"
-PROCESSED_DIR = DATA_DIR / "processed"
-REPORTS_DIR = BASE_DIR / "reports"
 
-# Play Store Config
-APP_PACKAGES = {
+# API Keys
+GEMINI_API_KEY: Optional[str] = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+
+# Data & Output Directories
+DATA_DIR: Path = BASE_DIR / "data"
+RAW_DIR: Path = DATA_DIR / "raw"
+PROCESSED_DIR: Path = DATA_DIR / "processed"
+REPORTS_DIR: Path = BASE_DIR / "reports"
+
+# Play Store Application Configuration
+APP_PACKAGES: Dict[str, str] = {
     "employee": "com.moveinsync.ets",
     "driver": "com.moveinsync.driver"
 }
-TARGET_APP = "employee"
-LANG = "en"
-COUNTRY = "in"
-MAX_REVIEWS = 10000
+TARGET_APP: str = "employee"
+LANG: str = "en"
+COUNTRY: str = "in"
+MAX_REVIEWS: int = 10000
 
-# LLM Config
-LLM_MODEL = "gemini-3.8-flash"
-BATCH_SIZE = 25
+# LLM Inference Configuration
+LLM_MODEL: str = "gemini-3.8-flash"
+BATCH_SIZE: int = 25
 
-# Standardized Theme Taxonomy
-KNOWN_THEMES = [
+# Standardized Domain Theme Taxonomy
+KNOWN_THEMES: List[str] = [
     "LOCATION_ETA",
     "APP_CRASH_OPEN",
     "SLOW_PERFORMANCE",
