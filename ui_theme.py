@@ -4,6 +4,14 @@ import html
 # Core CSS for styling and animations (dual theme compatible: light & dark)
 GLOBAL_CSS = """
 <style>
+/* Design Tokens & Theme Variables */
+:root {
+    --mis-card-bg: rgba(127, 127, 127, 0.12);
+    --mis-card-border: rgba(127, 127, 127, 0.25);
+    --mis-accent: var(--primary-color, #06b6d4);
+    --mis-card-radius: 12px;
+}
+
 /* Global font & text inheritance */
 html, body, [class*="css"], .hero-banner, .glass-card, .bar-row, .filter-ribbon, .quote-box {
     font-family: inherit;
