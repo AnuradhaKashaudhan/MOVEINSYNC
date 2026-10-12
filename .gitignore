@@ -1,0 +1,29 @@
+# Environment and credentials
+.env
+.env.*
+*.env
+
+# Raw review archives
+data/raw/
+data/raw/*
+
+# Large caches
+data/processed/review_tags_cache.json
+
+# Python and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

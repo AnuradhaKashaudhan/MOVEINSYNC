@@ -1,0 +1,3422 @@
+{
+  "metadata": {
+    "model_used": "gemini-3.5-flash-lite",
+    "tag_method": "llm",
+    "n_1_2_star": 1671,
+    "n_3_5_star": 1500,
+    "window_months": 24,
+    "cutoff_date": "2024-10-09 to 2026-10-09",
+    "validation": {
+      "held_out_sample_size": 70,
+      "train_few_shot_size": 40,
+      "match_rate_pct": 98.6,
+      "macro_f1_pct": 77.5,
+      "model_evaluated": "gemini-3.5-flash-lite",
+      "note": "Evaluated on n=70 held-out reviews. Macro F1 is 77.5%."
+    }
+  },
+  "theme_shares_all_1_2": [
+    {
+      "rank": 1,
+      "theme": "LOGIN_OTP",
+      "count": 245,
+      "share_pct": 14.66
+    },
+    {
+      "rank": 2,
+      "theme": "NO_DETAIL",
+      "count": 224,
+      "share_pct": 13.41
+    },
+    {
+      "rank": 3,
+      "theme": "APP_CRASH_OPEN",
+      "count": 147,
+      "share_pct": 8.8
+    },
+    {
+      "rank": 4,
+      "theme": "LOCATION_ETA",
+      "count": 145,
+      "share_pct": 8.68
+    },
+    {
+      "rank": 5,
+      "theme": "SLOW_PERFORMANCE",
+      "count": 134,
+      "share_pct": 8.02
+    },
+    {
+      "rank": 6,
+      "theme": "BOOKING",
+      "count": 132,
+      "share_pct": 7.9
+    },
+    {
+      "rank": 7,
+      "theme": "UI_REDESIGN",
+      "count": 103,
+      "share_pct": 6.16
+    },
+    {
+      "rank": 8,
+      "theme": "SUPPORT",
+      "count": 86,
+      "share_pct": 5.15
+    },
+    {
+      "rank": 9,
+      "theme": "ROUTING_STOPS",
+      "count": 78,
+      "share_pct": 4.67
+    },
+    {
+      "rank": 10,
+      "theme": "RATING_FEEDBACK",
+      "count": 58,
+      "share_pct": 3.47
+    },
+    {
+      "rank": 11,
+      "theme": "DRIVER_CONTACT",
+      "count": 42,
+      "share_pct": 2.51
+    },
+    {
+      "rank": 12,
+      "theme": "NO_SHOW",
+      "count": 36,
+      "share_pct": 2.15
+    },
+    {
+      "rank": 13,
+      "theme": "FEATURE_REQUEST",
+      "count": 34,
+      "share_pct": 2.03
+    },
+    {
+      "rank": 14,
+      "theme": "NOTIFICATIONS",
+      "count": 33,
+      "share_pct": 1.97
+    },
+    {
+      "rank": 15,
+      "theme": "OTHER_DRIVER_BEHAVIOUR",
+      "count": 29,
+      "share_pct": 1.74
+    },
+    {
+      "rank": 16,
+      "theme": "POSITIVE",
+      "count": 28,
+      "share_pct": 1.68
+    },
+    {
+      "rank": 17,
+      "theme": "OTHER:SERVICE_QUALITY",
+      "count": 18,
+      "share_pct": 1.08
+    },
+    {
+      "rank": 18,
+      "theme": "PERMISSIONS",
+      "count": 16,
+      "share_pct": 0.96
+    },
+    {
+      "rank": 19,
+      "theme": "PARKING_SEAT",
+      "count": 12,
+      "share_pct": 0.72
+    },
+    {
+      "rank": 20,
+      "theme": "OTHER:APP_QUALITY",
+      "count": 9,
+      "share_pct": 0.54
+    },
+    {
+      "rank": 21,
+      "theme": "OTHER:RELIABILITY",
+      "count": 3,
+      "share_pct": 0.18
+    },
+    {
+      "rank": 22,
+      "theme": "OTHER:GENERAL_EXPERIENCE",
+      "count": 3,
+      "share_pct": 0.18
+    },
+    {
+      "rank": 23,
+      "theme": "OTHER:safety",
+      "count": 2,
+      "share_pct": 0.12
+    },
+    {
+      "rank": 24,
+      "theme": "OTHER:TRANSPORT_OPERATIONS",
+      "count": 2,
+      "share_pct": 0.12
+    },
+    {
+      "rank": 25,
+      "theme": "OTHER:qr_scanning",
+      "count": 2,
+      "share_pct": 0.12
+    },
+    {
+      "rank": 26,
+      "theme": "OTHER:general_quality",
+      "count": 2,
+      "share_pct": 0.12
+    },
+    {
+      "rank": 27,
+      "theme": "OTHER:SERVICE_EXPERIENCE",
+      "count": 2,
+      "share_pct": 0.12
+    },
+    {
+      "rank": 28,
+      "theme": "OTHER:frequent_bugs",
+      "count": 2,
+      "share_pct": 0.12
+    },
+    {
+      "rank": 29,
+      "theme": "OTHER:connectivity_issue",
+      "count": 2,
+      "share_pct": 0.12
+    },
+    {
+      "rank": 30,
+      "theme": "OTHER:installation",
+      "count": 2,
+      "share_pct": 0.12
+    },
+    {
+      "rank": 31,
+      "theme": "OTHER:poor_service",
+      "count": 2,
+      "share_pct": 0.12
+    },
+    {
+      "rank": 32,
+      "theme": "OTHER:MANAGEMENT",
+      "count": 2,
+      "share_pct": 0.12
+    },
+    {
+      "rank": 33,
+      "theme": "OTHER:bugs",
+      "count": 2,
+      "share_pct": 0.12
+    },
+    {
+      "rank": 34,
+      "theme": "OTHER:COMPETITOR_COMPARISON",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 35,
+      "theme": "OTHER:USABILITY",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 36,
+      "theme": "OTHER:overly_secure",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 37,
+      "theme": "OTHER:ACCESS_RESTRICTION",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 38,
+      "theme": "OTHER:SAFETY_SOS",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 39,
+      "theme": "OTHER:updates",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 40,
+      "theme": "OTHER:OPERATIONS",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 41,
+      "theme": "OTHER:FREQUENT_UPDATES",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 42,
+      "theme": "OTHER:TECH_STACK",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 43,
+      "theme": "OTHER:MANDATORY_USAGE",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 44,
+      "theme": "OTHER:text_limit",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 45,
+      "theme": "OTHER:FLASHLIGHT_BUG",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 46,
+      "theme": "OTHER:service_quality",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 47,
+      "theme": "OTHER:qr_scanning_failure",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 48,
+      "theme": "OTHER:general_app_quality",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 49,
+      "theme": "OTHER:unclear_feedback",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 50,
+      "theme": "OTHER:GENERAL_QUALITY",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 51,
+      "theme": "OTHER:ADDRESS_UPDATE",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 52,
+      "theme": "OTHER:PREVIOUS_VERSION_PREFERRED",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 53,
+      "theme": "OTHER:weekend_service",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 54,
+      "theme": "OTHER:screen_sharing_restriction",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 55,
+      "theme": "OTHER:limited_options",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 56,
+      "theme": "OTHER:management",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 57,
+      "theme": "OTHER:general_bugs",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 58,
+      "theme": "OTHER:SYSTEM",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 59,
+      "theme": "OTHER:transport_clubbing",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 60,
+      "theme": "OTHER:cab_service_quality",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 61,
+      "theme": "OTHER:qr_scanner",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 62,
+      "theme": "OTHER:transport_service",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 63,
+      "theme": "OTHER:EXCESSIVE_CALLS",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 64,
+      "theme": "OTHER:QR_SCANNING",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 65,
+      "theme": "OTHER:battery_drain",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 66,
+      "theme": "OTHER:maintenance",
+      "count": 1,
+      "share_pct": 0.06
+    },
+    {
+      "rank": 67,
+      "theme": "OTHER:management_issue",
+      "count": 1,
+      "share_pct": 0.06
+    }
+  ],
+  "theme_shares_reasons_only": [
+    {
+      "rank": 1,
+      "theme": "LOGIN_OTP",
+      "count": 245,
+      "share_pct": 17.27
+    },
+    {
+      "rank": 2,
+      "theme": "APP_CRASH_OPEN",
+      "count": 147,
+      "share_pct": 10.36
+    },
+    {
+      "rank": 3,
+      "theme": "LOCATION_ETA",
+      "count": 145,
+      "share_pct": 10.22
+    },
+    {
+      "rank": 4,
+      "theme": "SLOW_PERFORMANCE",
+      "count": 134,
+      "share_pct": 9.44
+    },
+    {
+      "rank": 5,
+      "theme": "BOOKING",
+      "count": 132,
+      "share_pct": 9.3
+    },
+    {
+      "rank": 6,
+      "theme": "UI_REDESIGN",
+      "count": 103,
+      "share_pct": 7.26
+    },
+    {
+      "rank": 7,
+      "theme": "SUPPORT",
+      "count": 86,
+      "share_pct": 6.06
+    },
+    {
+      "rank": 8,
+      "theme": "ROUTING_STOPS",
+      "count": 78,
+      "share_pct": 5.5
+    },
+    {
+      "rank": 9,
+      "theme": "RATING_FEEDBACK",
+      "count": 58,
+      "share_pct": 4.09
+    },
+    {
+      "rank": 10,
+      "theme": "DRIVER_CONTACT",
+      "count": 42,
+      "share_pct": 2.96
+    },
+    {
+      "rank": 11,
+      "theme": "NO_SHOW",
+      "count": 36,
+      "share_pct": 2.54
+    },
+    {
+      "rank": 12,
+      "theme": "FEATURE_REQUEST",
+      "count": 34,
+      "share_pct": 2.4
+    },
+    {
+      "rank": 13,
+      "theme": "NOTIFICATIONS",
+      "count": 33,
+      "share_pct": 2.33
+    },
+    {
+      "rank": 14,
+      "theme": "OTHER_DRIVER_BEHAVIOUR",
+      "count": 29,
+      "share_pct": 2.04
+    },
+    {
+      "rank": 15,
+      "theme": "OTHER:SERVICE_QUALITY",
+      "count": 18,
+      "share_pct": 1.27
+    },
+    {
+      "rank": 16,
+      "theme": "PERMISSIONS",
+      "count": 16,
+      "share_pct": 1.13
+    },
+    {
+      "rank": 17,
+      "theme": "PARKING_SEAT",
+      "count": 12,
+      "share_pct": 0.85
+    },
+    {
+      "rank": 18,
+      "theme": "OTHER:APP_QUALITY",
+      "count": 9,
+      "share_pct": 0.63
+    },
+    {
+      "rank": 19,
+      "theme": "OTHER:RELIABILITY",
+      "count": 3,
+      "share_pct": 0.21
+    },
+    {
+      "rank": 20,
+      "theme": "OTHER:GENERAL_EXPERIENCE",
+      "count": 3,
+      "share_pct": 0.21
+    },
+    {
+      "rank": 21,
+      "theme": "OTHER:safety",
+      "count": 2,
+      "share_pct": 0.14
+    },
+    {
+      "rank": 22,
+      "theme": "OTHER:TRANSPORT_OPERATIONS",
+      "count": 2,
+      "share_pct": 0.14
+    },
+    {
+      "rank": 23,
+      "theme": "OTHER:qr_scanning",
+      "count": 2,
+      "share_pct": 0.14
+    },
+    {
+      "rank": 24,
+      "theme": "OTHER:general_quality",
+      "count": 2,
+      "share_pct": 0.14
+    },
+    {
+      "rank": 25,
+      "theme": "OTHER:SERVICE_EXPERIENCE",
+      "count": 2,
+      "share_pct": 0.14
+    },
+    {
+      "rank": 26,
+      "theme": "OTHER:frequent_bugs",
+      "count": 2,
+      "share_pct": 0.14
+    },
+    {
+      "rank": 27,
+      "theme": "OTHER:connectivity_issue",
+      "count": 2,
+      "share_pct": 0.14
+    },
+    {
+      "rank": 28,
+      "theme": "OTHER:installation",
+      "count": 2,
+      "share_pct": 0.14
+    },
+    {
+      "rank": 29,
+      "theme": "OTHER:poor_service",
+      "count": 2,
+      "share_pct": 0.14
+    },
+    {
+      "rank": 30,
+      "theme": "OTHER:MANAGEMENT",
+      "count": 2,
+      "share_pct": 0.14
+    },
+    {
+      "rank": 31,
+      "theme": "OTHER:bugs",
+      "count": 2,
+      "share_pct": 0.14
+    },
+    {
+      "rank": 32,
+      "theme": "OTHER:COMPETITOR_COMPARISON",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 33,
+      "theme": "OTHER:USABILITY",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 34,
+      "theme": "OTHER:overly_secure",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 35,
+      "theme": "OTHER:ACCESS_RESTRICTION",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 36,
+      "theme": "OTHER:SAFETY_SOS",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 37,
+      "theme": "OTHER:updates",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 38,
+      "theme": "OTHER:OPERATIONS",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 39,
+      "theme": "OTHER:FREQUENT_UPDATES",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 40,
+      "theme": "OTHER:TECH_STACK",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 41,
+      "theme": "OTHER:MANDATORY_USAGE",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 42,
+      "theme": "OTHER:text_limit",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 43,
+      "theme": "OTHER:FLASHLIGHT_BUG",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 44,
+      "theme": "OTHER:service_quality",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 45,
+      "theme": "OTHER:qr_scanning_failure",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 46,
+      "theme": "OTHER:general_app_quality",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 47,
+      "theme": "OTHER:unclear_feedback",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 48,
+      "theme": "OTHER:GENERAL_QUALITY",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 49,
+      "theme": "OTHER:ADDRESS_UPDATE",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 50,
+      "theme": "OTHER:PREVIOUS_VERSION_PREFERRED",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 51,
+      "theme": "OTHER:weekend_service",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 52,
+      "theme": "OTHER:screen_sharing_restriction",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 53,
+      "theme": "OTHER:limited_options",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 54,
+      "theme": "OTHER:management",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 55,
+      "theme": "OTHER:general_bugs",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 56,
+      "theme": "OTHER:SYSTEM",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 57,
+      "theme": "OTHER:transport_clubbing",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 58,
+      "theme": "OTHER:cab_service_quality",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 59,
+      "theme": "OTHER:qr_scanner",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 60,
+      "theme": "OTHER:transport_service",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 61,
+      "theme": "OTHER:EXCESSIVE_CALLS",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 62,
+      "theme": "OTHER:QR_SCANNING",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 63,
+      "theme": "OTHER:battery_drain",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 64,
+      "theme": "OTHER:maintenance",
+      "count": 1,
+      "share_pct": 0.07
+    },
+    {
+      "rank": 65,
+      "theme": "OTHER:management_issue",
+      "count": 1,
+      "share_pct": 0.07
+    }
+  ],
+  "theme_mentions": [
+    {
+      "rank": 1,
+      "theme": "LOGIN_OTP",
+      "mention_count": 274,
+      "review_coverage_pct": 16.4
+    },
+    {
+      "rank": 2,
+      "theme": "LOCATION_ETA",
+      "mention_count": 230,
+      "review_coverage_pct": 13.76
+    },
+    {
+      "rank": 3,
+      "theme": "NO_DETAIL",
+      "mention_count": 224,
+      "review_coverage_pct": 13.41
+    },
+    {
+      "rank": 4,
+      "theme": "APP_CRASH_OPEN",
+      "mention_count": 201,
+      "review_coverage_pct": 12.03
+    },
+    {
+      "rank": 5,
+      "theme": "BOOKING",
+      "mention_count": 199,
+      "review_coverage_pct": 11.91
+    },
+    {
+      "rank": 6,
+      "theme": "SLOW_PERFORMANCE",
+      "mention_count": 186,
+      "review_coverage_pct": 11.13
+    },
+    {
+      "rank": 7,
+      "theme": "SUPPORT",
+      "mention_count": 154,
+      "review_coverage_pct": 9.22
+    },
+    {
+      "rank": 8,
+      "theme": "UI_REDESIGN",
+      "mention_count": 139,
+      "review_coverage_pct": 8.32
+    },
+    {
+      "rank": 9,
+      "theme": "ROUTING_STOPS",
+      "mention_count": 103,
+      "review_coverage_pct": 6.16
+    },
+    {
+      "rank": 10,
+      "theme": "FEATURE_REQUEST",
+      "mention_count": 84,
+      "review_coverage_pct": 5.03
+    },
+    {
+      "rank": 11,
+      "theme": "RATING_FEEDBACK",
+      "mention_count": 71,
+      "review_coverage_pct": 4.25
+    },
+    {
+      "rank": 12,
+      "theme": "DRIVER_CONTACT",
+      "mention_count": 68,
+      "review_coverage_pct": 4.07
+    },
+    {
+      "rank": 13,
+      "theme": "NO_SHOW",
+      "mention_count": 62,
+      "review_coverage_pct": 3.71
+    },
+    {
+      "rank": 14,
+      "theme": "NOTIFICATIONS",
+      "mention_count": 55,
+      "review_coverage_pct": 3.29
+    },
+    {
+      "rank": 15,
+      "theme": "OTHER_DRIVER_BEHAVIOUR",
+      "mention_count": 44,
+      "review_coverage_pct": 2.63
+    },
+    {
+      "rank": 16,
+      "theme": "POSITIVE",
+      "mention_count": 28,
+      "review_coverage_pct": 1.68
+    },
+    {
+      "rank": 17,
+      "theme": "PERMISSIONS",
+      "mention_count": 23,
+      "review_coverage_pct": 1.38
+    },
+    {
+      "rank": 18,
+      "theme": "OTHER:SERVICE_QUALITY",
+      "mention_count": 21,
+      "review_coverage_pct": 1.26
+    },
+    {
+      "rank": 19,
+      "theme": "PARKING_SEAT",
+      "mention_count": 20,
+      "review_coverage_pct": 1.2
+    },
+    {
+      "rank": 20,
+      "theme": "OTHER:APP_QUALITY",
+      "mention_count": 9,
+      "review_coverage_pct": 0.54
+    },
+    {
+      "rank": 21,
+      "theme": "OTHER:RELIABILITY",
+      "mention_count": 4,
+      "review_coverage_pct": 0.24
+    },
+    {
+      "rank": 22,
+      "theme": "OTHER:safety",
+      "mention_count": 4,
+      "review_coverage_pct": 0.24
+    },
+    {
+      "rank": 23,
+      "theme": "OTHER:TRANSPORT_OPERATIONS",
+      "mention_count": 3,
+      "review_coverage_pct": 0.18
+    },
+    {
+      "rank": 24,
+      "theme": "OTHER:GENERAL_EXPERIENCE",
+      "mention_count": 3,
+      "review_coverage_pct": 0.18
+    },
+    {
+      "rank": 25,
+      "theme": "OTHER:general_quality",
+      "mention_count": 3,
+      "review_coverage_pct": 0.18
+    },
+    {
+      "rank": 26,
+      "theme": "OTHER:MANAGEMENT",
+      "mention_count": 3,
+      "review_coverage_pct": 0.18
+    },
+    {
+      "rank": 27,
+      "theme": "OTHER:SERVICE_EXPERIENCE",
+      "mention_count": 2,
+      "review_coverage_pct": 0.12
+    },
+    {
+      "rank": 28,
+      "theme": "OTHER:frequent_bugs",
+      "mention_count": 2,
+      "review_coverage_pct": 0.12
+    },
+    {
+      "rank": 29,
+      "theme": "OTHER:connectivity_issue",
+      "mention_count": 2,
+      "review_coverage_pct": 0.12
+    },
+    {
+      "rank": 30,
+      "theme": "BOOKing",
+      "mention_count": 2,
+      "review_coverage_pct": 0.12
+    },
+    {
+      "rank": 31,
+      "theme": "OTHER:QR_SCANNING",
+      "mention_count": 2,
+      "review_coverage_pct": 0.12
+    },
+    {
+      "rank": 32,
+      "theme": "OTHER:installation",
+      "mention_count": 2,
+      "review_coverage_pct": 0.12
+    },
+    {
+      "rank": 33,
+      "theme": "OTHER:poor_service",
+      "mention_count": 2,
+      "review_coverage_pct": 0.12
+    },
+    {
+      "rank": 34,
+      "theme": "OTHER:bugs",
+      "mention_count": 2,
+      "review_coverage_pct": 0.12
+    },
+    {
+      "rank": 35,
+      "theme": "OTHER:qr_scanning",
+      "mention_count": 2,
+      "review_coverage_pct": 0.12
+    },
+    {
+      "rank": 36,
+      "theme": "OTHER:MANDATORY_USAGE",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 37,
+      "theme": "OTHER:TECH_STACK",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 38,
+      "theme": "OTHER:FREQUENT_UPDATES",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 39,
+      "theme": "OTHER:USABILITY",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 40,
+      "theme": "OTHER:COMPETITOR_COMPARISON",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 41,
+      "theme": "OTHER:updates",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 42,
+      "theme": "OTHER:SAFETY_SOS",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 43,
+      "theme": "OTHER:OPERATIONS",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 44,
+      "theme": "OTHER:GENERAL_QUALITY",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 45,
+      "theme": "OTHER:unclear_feedback",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 46,
+      "theme": "OTHER:general_app_quality",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 47,
+      "theme": "OTHER:qr_scanning_failure",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 48,
+      "theme": "OTHER:ADDRESS_UPDATE",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 49,
+      "theme": "OTHER:ACCESS_RESTRICTION",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 50,
+      "theme": "OTHER:overly_secure",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 51,
+      "theme": "OTHER:date_time_settings",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 52,
+      "theme": "OTHER:weekend_service",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 53,
+      "theme": "OTHER:screen_sharing_restriction",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 54,
+      "theme": "OTHER:limited_options",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 55,
+      "theme": "OTHER:PREVIOUS_VERSION_PREFERRED",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 56,
+      "theme": "OTHER:service_quality",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 57,
+      "theme": "OTHER:text_limit",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 58,
+      "theme": "OTHER:management",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 59,
+      "theme": "OTHER:FLASHLIGHT_BUG",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 60,
+      "theme": "OTHER:cab_service_quality",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 61,
+      "theme": "OTHER:general_bugs",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 62,
+      "theme": "OTHER:SYSTEM",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 63,
+      "theme": "OTHER:transport_clubbing",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 64,
+      "theme": "OTHER:calendar_issue",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 65,
+      "theme": "OTHER:device_time_bug",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 66,
+      "theme": "OTHER:ANNOYING_DISCLAIMER",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 67,
+      "theme": "OTHER:poor_schedule_management",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 68,
+      "theme": "OTHER:qr_scanner",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 69,
+      "theme": "OTHER:SAFETY_CONCERN",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 70,
+      "theme": "OTHER:transport_service",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 71,
+      "theme": "OTHER:EXCESSIVE_CALLS",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 72,
+      "theme": "OTHER:battery_drain",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 73,
+      "theme": "OTHER:maintenance",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 74,
+      "theme": "ACCESSIBILITY",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    },
+    {
+      "rank": 75,
+      "theme": "OTHER:management_issue",
+      "mention_count": 1,
+      "review_coverage_pct": 0.06
+    }
+  ],
+  "monthly_trends": [
+    {
+      "month": "2024-11",
+      "is_partial": false,
+      "total_reviews": 65,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 1,
+          "share_pct": 1.5,
+          "rolling_3m_pct": 10.4,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 1,
+          "share_pct": 1.5,
+          "rolling_3m_pct": 9.4,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 13,
+          "share_pct": 20.0,
+          "rolling_3m_pct": 13.8,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 6,
+          "share_pct": 9.2,
+          "rolling_3m_pct": 10.4,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 5,
+          "share_pct": 7.7,
+          "rolling_3m_pct": 6.7,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 13,
+          "share_pct": 20.0,
+          "rolling_3m_pct": 11.9,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 3,
+          "share_pct": 4.6,
+          "rolling_3m_pct": 3.3,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 2,
+          "share_pct": 3.1,
+          "rolling_3m_pct": 3.5,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2024-12",
+      "is_partial": false,
+      "total_reviews": 57,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 9,
+          "share_pct": 15.8,
+          "rolling_3m_pct": 12.2,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 6,
+          "share_pct": 10.5,
+          "rolling_3m_pct": 9.8,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 4,
+          "share_pct": 7.0,
+          "rolling_3m_pct": 11.6,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 2,
+          "share_pct": 3.5,
+          "rolling_3m_pct": 8.1,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 5,
+          "share_pct": 8.8,
+          "rolling_3m_pct": 7.4,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 6,
+          "share_pct": 10.5,
+          "rolling_3m_pct": 11.5,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 0,
+          "share_pct": 0.0,
+          "rolling_3m_pct": 2.2,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 3,
+          "share_pct": 5.3,
+          "rolling_3m_pct": 4.1,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2025-01",
+      "is_partial": false,
+      "total_reviews": 109,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 29,
+          "share_pct": 26.6,
+          "rolling_3m_pct": 14.6,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 21,
+          "share_pct": 19.3,
+          "rolling_3m_pct": 10.4,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 10,
+          "share_pct": 9.2,
+          "rolling_3m_pct": 12.1,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 9,
+          "share_pct": 8.3,
+          "rolling_3m_pct": 7.0,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 4,
+          "share_pct": 3.7,
+          "rolling_3m_pct": 6.7,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 4,
+          "share_pct": 3.7,
+          "rolling_3m_pct": 11.4,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 4,
+          "share_pct": 3.7,
+          "rolling_3m_pct": 2.8,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 2,
+          "share_pct": 1.8,
+          "rolling_3m_pct": 3.4,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2025-02",
+      "is_partial": false,
+      "total_reviews": 84,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 25,
+          "share_pct": 29.8,
+          "rolling_3m_pct": 24.1,
+          "is_spike": true
+        },
+        "APP_CRASH_OPEN": {
+          "count": 12,
+          "share_pct": 14.3,
+          "rolling_3m_pct": 14.7,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 5,
+          "share_pct": 6.0,
+          "rolling_3m_pct": 7.4,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 8,
+          "share_pct": 9.5,
+          "rolling_3m_pct": 7.1,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 6,
+          "share_pct": 7.1,
+          "rolling_3m_pct": 6.5,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 2,
+          "share_pct": 2.4,
+          "rolling_3m_pct": 5.5,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 5,
+          "share_pct": 6.0,
+          "rolling_3m_pct": 3.2,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 3,
+          "share_pct": 3.6,
+          "rolling_3m_pct": 3.6,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2025-03",
+      "is_partial": false,
+      "total_reviews": 59,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 5,
+          "share_pct": 8.5,
+          "rolling_3m_pct": 21.6,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 6,
+          "share_pct": 10.2,
+          "rolling_3m_pct": 14.6,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 5,
+          "share_pct": 8.5,
+          "rolling_3m_pct": 7.9,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 8,
+          "share_pct": 13.6,
+          "rolling_3m_pct": 10.4,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 5,
+          "share_pct": 8.5,
+          "rolling_3m_pct": 6.4,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 4,
+          "share_pct": 6.8,
+          "rolling_3m_pct": 4.3,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 5,
+          "share_pct": 8.5,
+          "rolling_3m_pct": 6.0,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 1,
+          "share_pct": 1.7,
+          "rolling_3m_pct": 2.4,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2025-04",
+      "is_partial": false,
+      "total_reviews": 60,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 3,
+          "share_pct": 5.0,
+          "rolling_3m_pct": 14.4,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 4,
+          "share_pct": 6.7,
+          "rolling_3m_pct": 10.4,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 3,
+          "share_pct": 5.0,
+          "rolling_3m_pct": 6.5,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 4,
+          "share_pct": 6.7,
+          "rolling_3m_pct": 9.9,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 4,
+          "share_pct": 6.7,
+          "rolling_3m_pct": 7.4,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 4,
+          "share_pct": 6.7,
+          "rolling_3m_pct": 5.3,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 6,
+          "share_pct": 10.0,
+          "rolling_3m_pct": 8.1,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 3,
+          "share_pct": 5.0,
+          "rolling_3m_pct": 3.4,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2025-05",
+      "is_partial": false,
+      "total_reviews": 73,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 7,
+          "share_pct": 9.6,
+          "rolling_3m_pct": 7.7,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 9,
+          "share_pct": 12.3,
+          "rolling_3m_pct": 9.7,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 6,
+          "share_pct": 8.2,
+          "rolling_3m_pct": 7.2,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 11,
+          "share_pct": 15.1,
+          "rolling_3m_pct": 11.8,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 4,
+          "share_pct": 5.5,
+          "rolling_3m_pct": 6.9,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 4,
+          "share_pct": 5.5,
+          "rolling_3m_pct": 6.3,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 4,
+          "share_pct": 5.5,
+          "rolling_3m_pct": 8.0,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 3,
+          "share_pct": 4.1,
+          "rolling_3m_pct": 3.6,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2025-06",
+      "is_partial": false,
+      "total_reviews": 100,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 25,
+          "share_pct": 25.0,
+          "rolling_3m_pct": 13.2,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 7,
+          "share_pct": 7.0,
+          "rolling_3m_pct": 8.7,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 8,
+          "share_pct": 8.0,
+          "rolling_3m_pct": 7.1,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 10,
+          "share_pct": 10.0,
+          "rolling_3m_pct": 10.6,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 3,
+          "share_pct": 3.0,
+          "rolling_3m_pct": 5.0,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 2,
+          "share_pct": 2.0,
+          "rolling_3m_pct": 4.7,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 3,
+          "share_pct": 3.0,
+          "rolling_3m_pct": 6.2,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 8,
+          "share_pct": 8.0,
+          "rolling_3m_pct": 5.7,
+          "is_spike": true
+        }
+      }
+    },
+    {
+      "month": "2025-07",
+      "is_partial": false,
+      "total_reviews": 76,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 16,
+          "share_pct": 21.1,
+          "rolling_3m_pct": 18.5,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 3,
+          "share_pct": 3.9,
+          "rolling_3m_pct": 7.8,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 9,
+          "share_pct": 11.8,
+          "rolling_3m_pct": 9.4,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 5,
+          "share_pct": 6.6,
+          "rolling_3m_pct": 10.5,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 6,
+          "share_pct": 7.9,
+          "rolling_3m_pct": 5.5,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 2,
+          "share_pct": 2.6,
+          "rolling_3m_pct": 3.4,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 4,
+          "share_pct": 5.3,
+          "rolling_3m_pct": 4.6,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 2,
+          "share_pct": 2.6,
+          "rolling_3m_pct": 4.9,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2025-08",
+      "is_partial": false,
+      "total_reviews": 73,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 11,
+          "share_pct": 15.1,
+          "rolling_3m_pct": 20.4,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 5,
+          "share_pct": 6.8,
+          "rolling_3m_pct": 5.9,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 2,
+          "share_pct": 2.7,
+          "rolling_3m_pct": 7.5,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 5,
+          "share_pct": 6.8,
+          "rolling_3m_pct": 7.8,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 3,
+          "share_pct": 4.1,
+          "rolling_3m_pct": 5.0,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 7,
+          "share_pct": 9.6,
+          "rolling_3m_pct": 4.7,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 4,
+          "share_pct": 5.5,
+          "rolling_3m_pct": 4.6,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 3,
+          "share_pct": 4.1,
+          "rolling_3m_pct": 4.9,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2025-09",
+      "is_partial": false,
+      "total_reviews": 68,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 7,
+          "share_pct": 10.3,
+          "rolling_3m_pct": 15.5,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 3,
+          "share_pct": 4.4,
+          "rolling_3m_pct": 5.1,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 6,
+          "share_pct": 8.8,
+          "rolling_3m_pct": 7.8,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 6,
+          "share_pct": 8.8,
+          "rolling_3m_pct": 7.4,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 6,
+          "share_pct": 8.8,
+          "rolling_3m_pct": 6.9,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 6,
+          "share_pct": 8.8,
+          "rolling_3m_pct": 7.0,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 6,
+          "share_pct": 8.8,
+          "rolling_3m_pct": 6.5,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 2,
+          "share_pct": 2.9,
+          "rolling_3m_pct": 3.2,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2025-10",
+      "is_partial": false,
+      "total_reviews": 80,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 21,
+          "share_pct": 26.2,
+          "rolling_3m_pct": 17.2,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 5,
+          "share_pct": 6.2,
+          "rolling_3m_pct": 5.8,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 4,
+          "share_pct": 5.0,
+          "rolling_3m_pct": 5.5,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 4,
+          "share_pct": 5.0,
+          "rolling_3m_pct": 6.9,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 5,
+          "share_pct": 6.2,
+          "rolling_3m_pct": 6.4,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 5,
+          "share_pct": 6.2,
+          "rolling_3m_pct": 8.2,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 1,
+          "share_pct": 1.2,
+          "rolling_3m_pct": 5.2,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 4,
+          "share_pct": 5.0,
+          "rolling_3m_pct": 4.0,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2025-11",
+      "is_partial": false,
+      "total_reviews": 48,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 5,
+          "share_pct": 10.4,
+          "rolling_3m_pct": 15.7,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 3,
+          "share_pct": 6.2,
+          "rolling_3m_pct": 5.6,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 6,
+          "share_pct": 12.5,
+          "rolling_3m_pct": 8.8,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 5,
+          "share_pct": 10.4,
+          "rolling_3m_pct": 8.1,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 8,
+          "share_pct": 16.7,
+          "rolling_3m_pct": 10.6,
+          "is_spike": true
+        },
+        "UI_REDESIGN": {
+          "count": 5,
+          "share_pct": 10.4,
+          "rolling_3m_pct": 8.5,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 3,
+          "share_pct": 6.2,
+          "rolling_3m_pct": 5.4,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 2,
+          "share_pct": 4.2,
+          "rolling_3m_pct": 4.0,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2025-12",
+      "is_partial": false,
+      "total_reviews": 54,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 4,
+          "share_pct": 7.4,
+          "rolling_3m_pct": 14.7,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 5,
+          "share_pct": 9.3,
+          "rolling_3m_pct": 7.3,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 6,
+          "share_pct": 11.1,
+          "rolling_3m_pct": 9.5,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 3,
+          "share_pct": 5.6,
+          "rolling_3m_pct": 7.0,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 8,
+          "share_pct": 14.8,
+          "rolling_3m_pct": 12.6,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 1,
+          "share_pct": 1.9,
+          "rolling_3m_pct": 6.2,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 3,
+          "share_pct": 5.6,
+          "rolling_3m_pct": 4.4,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 4,
+          "share_pct": 7.4,
+          "rolling_3m_pct": 5.5,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2026-01",
+      "is_partial": false,
+      "total_reviews": 60,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 6,
+          "share_pct": 10.0,
+          "rolling_3m_pct": 9.3,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 5,
+          "share_pct": 8.3,
+          "rolling_3m_pct": 7.9,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 5,
+          "share_pct": 8.3,
+          "rolling_3m_pct": 10.6,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 5,
+          "share_pct": 8.3,
+          "rolling_3m_pct": 8.1,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 8,
+          "share_pct": 13.3,
+          "rolling_3m_pct": 14.9,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 3,
+          "share_pct": 5.0,
+          "rolling_3m_pct": 5.8,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 1,
+          "share_pct": 1.7,
+          "rolling_3m_pct": 4.5,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 1,
+          "share_pct": 1.7,
+          "rolling_3m_pct": 4.4,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2026-02",
+      "is_partial": false,
+      "total_reviews": 62,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 14,
+          "share_pct": 22.6,
+          "rolling_3m_pct": 13.3,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 2,
+          "share_pct": 3.2,
+          "rolling_3m_pct": 6.9,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 7,
+          "share_pct": 11.3,
+          "rolling_3m_pct": 10.2,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 3,
+          "share_pct": 4.8,
+          "rolling_3m_pct": 6.2,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 4,
+          "share_pct": 6.5,
+          "rolling_3m_pct": 11.5,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 3,
+          "share_pct": 4.8,
+          "rolling_3m_pct": 3.9,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 4,
+          "share_pct": 6.5,
+          "rolling_3m_pct": 4.6,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 4,
+          "share_pct": 6.5,
+          "rolling_3m_pct": 5.2,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2026-03",
+      "is_partial": false,
+      "total_reviews": 46,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 5,
+          "share_pct": 10.9,
+          "rolling_3m_pct": 14.5,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 1,
+          "share_pct": 2.2,
+          "rolling_3m_pct": 4.6,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 4,
+          "share_pct": 8.7,
+          "rolling_3m_pct": 9.4,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 0,
+          "share_pct": 0.0,
+          "rolling_3m_pct": 4.4,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 6,
+          "share_pct": 13.0,
+          "rolling_3m_pct": 10.9,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 1,
+          "share_pct": 2.2,
+          "rolling_3m_pct": 4.0,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 4,
+          "share_pct": 8.7,
+          "rolling_3m_pct": 5.6,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 3,
+          "share_pct": 6.5,
+          "rolling_3m_pct": 4.9,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2026-04",
+      "is_partial": false,
+      "total_reviews": 64,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 8,
+          "share_pct": 12.5,
+          "rolling_3m_pct": 15.3,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 2,
+          "share_pct": 3.1,
+          "rolling_3m_pct": 2.8,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 3,
+          "share_pct": 4.7,
+          "rolling_3m_pct": 8.2,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 4,
+          "share_pct": 6.2,
+          "rolling_3m_pct": 3.7,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 6,
+          "share_pct": 9.4,
+          "rolling_3m_pct": 9.6,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 7,
+          "share_pct": 10.9,
+          "rolling_3m_pct": 6.0,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 3,
+          "share_pct": 4.7,
+          "rolling_3m_pct": 6.6,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 2,
+          "share_pct": 3.1,
+          "rolling_3m_pct": 5.4,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2026-05",
+      "is_partial": false,
+      "total_reviews": 53,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 9,
+          "share_pct": 17.0,
+          "rolling_3m_pct": 13.5,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 4,
+          "share_pct": 7.5,
+          "rolling_3m_pct": 4.3,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 5,
+          "share_pct": 9.4,
+          "rolling_3m_pct": 7.6,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 4,
+          "share_pct": 7.5,
+          "rolling_3m_pct": 4.6,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 8,
+          "share_pct": 15.1,
+          "rolling_3m_pct": 12.5,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 1,
+          "share_pct": 1.9,
+          "rolling_3m_pct": 5.0,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 3,
+          "share_pct": 5.7,
+          "rolling_3m_pct": 6.3,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 3,
+          "share_pct": 5.7,
+          "rolling_3m_pct": 5.1,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2026-06",
+      "is_partial": false,
+      "total_reviews": 92,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 10,
+          "share_pct": 10.9,
+          "rolling_3m_pct": 13.5,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 3,
+          "share_pct": 3.3,
+          "rolling_3m_pct": 4.6,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 12,
+          "share_pct": 13.0,
+          "rolling_3m_pct": 9.1,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 9,
+          "share_pct": 9.8,
+          "rolling_3m_pct": 7.9,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 8,
+          "share_pct": 8.7,
+          "rolling_3m_pct": 11.1,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 4,
+          "share_pct": 4.3,
+          "rolling_3m_pct": 5.7,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 7,
+          "share_pct": 7.6,
+          "rolling_3m_pct": 6.0,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 7,
+          "share_pct": 7.6,
+          "rolling_3m_pct": 5.5,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2026-07",
+      "is_partial": false,
+      "total_reviews": 66,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 3,
+          "share_pct": 4.5,
+          "rolling_3m_pct": 10.8,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 6,
+          "share_pct": 9.1,
+          "rolling_3m_pct": 6.6,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 4,
+          "share_pct": 6.1,
+          "rolling_3m_pct": 9.5,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 6,
+          "share_pct": 9.1,
+          "rolling_3m_pct": 8.8,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 8,
+          "share_pct": 12.1,
+          "rolling_3m_pct": 12.0,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 6,
+          "share_pct": 9.1,
+          "rolling_3m_pct": 5.1,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 3,
+          "share_pct": 4.5,
+          "rolling_3m_pct": 5.9,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 2,
+          "share_pct": 3.0,
+          "rolling_3m_pct": 5.4,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2026-08",
+      "is_partial": false,
+      "total_reviews": 77,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 2,
+          "share_pct": 2.6,
+          "rolling_3m_pct": 6.0,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 10,
+          "share_pct": 13.0,
+          "rolling_3m_pct": 8.4,
+          "is_spike": true
+        },
+        "LOCATION_ETA": {
+          "count": 7,
+          "share_pct": 9.1,
+          "rolling_3m_pct": 9.4,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 6,
+          "share_pct": 7.8,
+          "rolling_3m_pct": 8.9,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 5,
+          "share_pct": 6.5,
+          "rolling_3m_pct": 9.1,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 6,
+          "share_pct": 7.8,
+          "rolling_3m_pct": 7.1,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 5,
+          "share_pct": 6.5,
+          "rolling_3m_pct": 6.2,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 9,
+          "share_pct": 11.7,
+          "rolling_3m_pct": 7.4,
+          "is_spike": true
+        }
+      }
+    },
+    {
+      "month": "2026-09",
+      "is_partial": false,
+      "total_reviews": 68,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 7,
+          "share_pct": 10.3,
+          "rolling_3m_pct": 5.8,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 13,
+          "share_pct": 19.1,
+          "rolling_3m_pct": 13.7,
+          "is_spike": true
+        },
+        "LOCATION_ETA": {
+          "count": 5,
+          "share_pct": 7.4,
+          "rolling_3m_pct": 7.5,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 4,
+          "share_pct": 5.9,
+          "rolling_3m_pct": 7.6,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 2,
+          "share_pct": 2.9,
+          "rolling_3m_pct": 7.2,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 1,
+          "share_pct": 1.5,
+          "rolling_3m_pct": 6.1,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 3,
+          "share_pct": 4.4,
+          "rolling_3m_pct": 5.2,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 1,
+          "share_pct": 1.5,
+          "rolling_3m_pct": 5.4,
+          "is_spike": false
+        }
+      }
+    },
+    {
+      "month": "2026-10",
+      "is_partial": true,
+      "total_reviews": 25,
+      "themes": {
+        "LOGIN_OTP": {
+          "count": 3,
+          "share_pct": 12.0,
+          "rolling_3m_pct": 8.3,
+          "is_spike": false
+        },
+        "APP_CRASH_OPEN": {
+          "count": 2,
+          "share_pct": 8.0,
+          "rolling_3m_pct": 13.4,
+          "is_spike": false
+        },
+        "LOCATION_ETA": {
+          "count": 2,
+          "share_pct": 8.0,
+          "rolling_3m_pct": 8.1,
+          "is_spike": false
+        },
+        "SLOW_PERFORMANCE": {
+          "count": 1,
+          "share_pct": 4.0,
+          "rolling_3m_pct": 5.9,
+          "is_spike": false
+        },
+        "BOOKING": {
+          "count": 2,
+          "share_pct": 8.0,
+          "rolling_3m_pct": 5.8,
+          "is_spike": false
+        },
+        "UI_REDESIGN": {
+          "count": 4,
+          "share_pct": 16.0,
+          "rolling_3m_pct": 8.4,
+          "is_spike": false
+        },
+        "SUPPORT": {
+          "count": 1,
+          "share_pct": 4.0,
+          "rolling_3m_pct": 5.0,
+          "is_spike": false
+        },
+        "ROUTING_STOPS": {
+          "count": 2,
+          "share_pct": 8.0,
+          "rolling_3m_pct": 7.1,
+          "is_spike": false
+        }
+      }
+    }
+  ],
+  "spikes_detected": [
+    {
+      "month": "2025-02",
+      "theme": "LOGIN_OTP",
+      "count": 25,
+      "share_pct": 29.8,
+      "trailing_avg_pct": 14.6,
+      "top_versions": {
+        "11.5.17": 21,
+        "11.3.2": 1,
+        "11.4.22": 1
+      }
+    },
+    {
+      "month": "2025-06",
+      "theme": "ROUTING_STOPS",
+      "count": 8,
+      "share_pct": 8.0,
+      "trailing_avg_pct": 3.6,
+      "top_versions": {
+        "12.1.2": 5,
+        "12.1": 2,
+        "12.1.1": 1
+      }
+    },
+    {
+      "month": "2025-11",
+      "theme": "BOOKING",
+      "count": 8,
+      "share_pct": 16.7,
+      "trailing_avg_pct": 5.9,
+      "top_versions": {
+        "12.6": 7
+      }
+    },
+    {
+      "month": "2026-08",
+      "theme": "APP_CRASH_OPEN",
+      "count": 10,
+      "share_pct": 13.0,
+      "trailing_avg_pct": 4.7,
+      "top_versions": {
+        "12.17.0": 4,
+        "12.16.0": 2,
+        "12.16.1": 1
+      }
+    },
+    {
+      "month": "2026-08",
+      "theme": "ROUTING_STOPS",
+      "count": 9,
+      "share_pct": 11.7,
+      "trailing_avg_pct": 5.4,
+      "top_versions": {
+        "12.17.0": 6,
+        "12.16.1": 1,
+        "12.16.0": 1
+      }
+    },
+    {
+      "month": "2026-09",
+      "theme": "APP_CRASH_OPEN",
+      "count": 13,
+      "share_pct": 19.1,
+      "trailing_avg_pct": 6.4,
+      "top_versions": {
+        "12.19.0": 8,
+        "12.18.1": 3,
+        "11.0.2": 1
+      }
+    }
+  ],
+  "version_analysis_unbiased": [
+    {
+      "version": "11.5.8",
+      "n": 205,
+      "n_1_2": 58,
+      "share_1_2_pct": 28.3,
+      "ci_low_pct": 22.1,
+      "ci_high_pct": 34.5,
+      "neighbour_pooled_share_pct": 34.7,
+      "neighbour_ci_low_pct": 30.4,
+      "neighbour_ci_high_pct": 39.0,
+      "is_significant_drop": false,
+      "status": "Normal / Lower"
+    },
+    {
+      "version": "11.5.17",
+      "n": 472,
+      "n_1_2": 164,
+      "share_1_2_pct": 34.7,
+      "ci_low_pct": 30.4,
+      "ci_high_pct": 39.0,
+      "neighbour_pooled_share_pct": 27.8,
+      "neighbour_ci_low_pct": 23.1,
+      "neighbour_ci_high_pct": 32.5,
+      "is_significant_drop": false,
+      "status": "Higher (CIs overlap / Inconclusive)"
+    },
+    {
+      "version": "11.5.19",
+      "n": 144,
+      "n_1_2": 39,
+      "share_1_2_pct": 27.1,
+      "ci_low_pct": 19.8,
+      "ci_high_pct": 34.3,
+      "neighbour_pooled_share_pct": 32.4,
+      "neighbour_ci_low_pct": 28.8,
+      "neighbour_ci_high_pct": 35.9,
+      "is_significant_drop": false,
+      "status": "Normal / Lower"
+    },
+    {
+      "version": "11.5.21",
+      "n": 211,
+      "n_1_2": 57,
+      "share_1_2_pct": 27.0,
+      "ci_low_pct": 21.0,
+      "ci_high_pct": 33.0,
+      "neighbour_pooled_share_pct": 27.8,
+      "neighbour_ci_low_pct": 22.7,
+      "neighbour_ci_high_pct": 33.0,
+      "is_significant_drop": false,
+      "status": "Normal / Lower"
+    },
+    {
+      "version": "12.0",
+      "n": 147,
+      "n_1_2": 42,
+      "share_1_2_pct": 28.6,
+      "ci_low_pct": 21.3,
+      "ci_high_pct": 35.9,
+      "neighbour_pooled_share_pct": 26.7,
+      "neighbour_ci_low_pct": 22.3,
+      "neighbour_ci_high_pct": 31.2,
+      "is_significant_drop": false,
+      "status": "Higher (CIs overlap / Inconclusive)"
+    },
+    {
+      "version": "12.1",
+      "n": 167,
+      "n_1_2": 44,
+      "share_1_2_pct": 26.3,
+      "ci_low_pct": 19.7,
+      "ci_high_pct": 33.0,
+      "neighbour_pooled_share_pct": 31.6,
+      "neighbour_ci_low_pct": 27.1,
+      "neighbour_ci_high_pct": 36.1,
+      "is_significant_drop": false,
+      "status": "Normal / Lower"
+    },
+    {
+      "version": "12.1.2",
+      "n": 258,
+      "n_1_2": 86,
+      "share_1_2_pct": 33.3,
+      "ci_low_pct": 27.6,
+      "ci_high_pct": 39.1,
+      "neighbour_pooled_share_pct": 25.7,
+      "neighbour_ci_low_pct": 20.9,
+      "neighbour_ci_high_pct": 30.5,
+      "is_significant_drop": false,
+      "status": "Higher (CIs overlap / Inconclusive)"
+    },
+    {
+      "version": "12.2.1",
+      "n": 152,
+      "n_1_2": 38,
+      "share_1_2_pct": 25.0,
+      "ci_low_pct": 18.1,
+      "ci_high_pct": 31.9,
+      "neighbour_pooled_share_pct": 32.6,
+      "neighbour_ci_low_pct": 28.1,
+      "neighbour_ci_high_pct": 37.1,
+      "is_significant_drop": false,
+      "status": "Normal / Lower"
+    },
+    {
+      "version": "12.3",
+      "n": 153,
+      "n_1_2": 48,
+      "share_1_2_pct": 31.4,
+      "ci_low_pct": 24.0,
+      "ci_high_pct": 38.7,
+      "neighbour_pooled_share_pct": 28.4,
+      "neighbour_ci_low_pct": 23.3,
+      "neighbour_ci_high_pct": 33.6,
+      "is_significant_drop": false,
+      "status": "Higher (CIs overlap / Inconclusive)"
+    },
+    {
+      "version": "12.4",
+      "n": 140,
+      "n_1_2": 45,
+      "share_1_2_pct": 32.1,
+      "ci_low_pct": 24.4,
+      "ci_high_pct": 39.9,
+      "neighbour_pooled_share_pct": 29.3,
+      "neighbour_ci_low_pct": 24.1,
+      "neighbour_ci_high_pct": 34.5,
+      "is_significant_drop": false,
+      "status": "Higher (CIs overlap / Inconclusive)"
+    },
+    {
+      "version": "12.5",
+      "n": 144,
+      "n_1_2": 39,
+      "share_1_2_pct": 27.1,
+      "ci_low_pct": 19.8,
+      "ci_high_pct": 34.3,
+      "neighbour_pooled_share_pct": 28.0,
+      "neighbour_ci_low_pct": 23.7,
+      "neighbour_ci_high_pct": 32.3,
+      "is_significant_drop": false,
+      "status": "Normal / Lower"
+    },
+    {
+      "version": "12.6",
+      "n": 285,
+      "n_1_2": 74,
+      "share_1_2_pct": 26.0,
+      "ci_low_pct": 20.9,
+      "ci_high_pct": 31.1,
+      "neighbour_pooled_share_pct": 28.9,
+      "neighbour_ci_low_pct": 23.3,
+      "neighbour_ci_high_pct": 34.5,
+      "is_significant_drop": false,
+      "status": "Normal / Lower"
+    },
+    {
+      "version": "12.8.3",
+      "n": 105,
+      "n_1_2": 33,
+      "share_1_2_pct": 31.4,
+      "ci_low_pct": 22.5,
+      "ci_high_pct": 40.3,
+      "neighbour_pooled_share_pct": 25.7,
+      "neighbour_ci_low_pct": 21.3,
+      "neighbour_ci_high_pct": 30.1,
+      "is_significant_drop": false,
+      "status": "Higher (CIs overlap / Inconclusive)"
+    },
+    {
+      "version": "12.10.2",
+      "n": 100,
+      "n_1_2": 25,
+      "share_1_2_pct": 25.0,
+      "ci_low_pct": 16.5,
+      "ci_high_pct": 33.5,
+      "neighbour_pooled_share_pct": 26.5,
+      "neighbour_ci_low_pct": 21.0,
+      "neighbour_ci_high_pct": 32.0,
+      "is_significant_drop": false,
+      "status": "Normal / Lower"
+    },
+    {
+      "version": "12.11.2",
+      "n": 144,
+      "n_1_2": 33,
+      "share_1_2_pct": 22.9,
+      "ci_low_pct": 16.1,
+      "ci_high_pct": 29.8,
+      "neighbour_pooled_share_pct": 23.6,
+      "neighbour_ci_low_pct": 17.9,
+      "neighbour_ci_high_pct": 29.3,
+      "is_significant_drop": false,
+      "status": "Normal / Lower"
+    },
+    {
+      "version": "12.12.3",
+      "n": 112,
+      "n_1_2": 25,
+      "share_1_2_pct": 22.3,
+      "ci_low_pct": 14.6,
+      "ci_high_pct": 30.0,
+      "neighbour_pooled_share_pct": 25.2,
+      "neighbour_ci_low_pct": 20.1,
+      "neighbour_ci_high_pct": 30.2,
+      "is_significant_drop": false,
+      "status": "Normal / Lower"
+    },
+    {
+      "version": "12.14.1",
+      "n": 142,
+      "n_1_2": 39,
+      "share_1_2_pct": 27.5,
+      "ci_low_pct": 20.1,
+      "ci_high_pct": 34.8,
+      "neighbour_pooled_share_pct": 26.5,
+      "neighbour_ci_low_pct": 21.0,
+      "neighbour_ci_high_pct": 31.9,
+      "is_significant_drop": false,
+      "status": "Higher (CIs overlap / Inconclusive)"
+    },
+    {
+      "version": "12.17.0",
+      "n": 141,
+      "n_1_2": 42,
+      "share_1_2_pct": 29.8,
+      "ci_low_pct": 22.2,
+      "ci_high_pct": 37.3,
+      "neighbour_pooled_share_pct": 30.7,
+      "neighbour_ci_low_pct": 24.9,
+      "neighbour_ci_high_pct": 36.5,
+      "is_significant_drop": false,
+      "status": "Normal / Lower"
+    },
+    {
+      "version": "12.19.0",
+      "n": 102,
+      "n_1_2": 36,
+      "share_1_2_pct": 35.3,
+      "ci_low_pct": 26.0,
+      "ci_high_pct": 44.6,
+      "neighbour_pooled_share_pct": 29.8,
+      "neighbour_ci_low_pct": 22.2,
+      "neighbour_ci_high_pct": 37.3,
+      "is_significant_drop": false,
+      "status": "Higher (CIs overlap / Inconclusive)"
+    }
+  ],
+  "rating_impact": [
+    {
+      "theme": "LOGIN_OTP",
+      "primary_count": 245,
+      "mentions_count": 274,
+      "estimated_lift_low": 0.03,
+      "estimated_lift_high": 0.034,
+      "projected_rating_low": 4.668,
+      "projected_rating_high": 4.672
+    },
+    {
+      "theme": "APP_CRASH_OPEN",
+      "primary_count": 147,
+      "mentions_count": 201,
+      "estimated_lift_low": 0.018,
+      "estimated_lift_high": 0.025,
+      "projected_rating_low": 4.656,
+      "projected_rating_high": 4.663
+    },
+    {
+      "theme": "LOCATION_ETA",
+      "primary_count": 145,
+      "mentions_count": 230,
+      "estimated_lift_low": 0.018,
+      "estimated_lift_high": 0.028,
+      "projected_rating_low": 4.656,
+      "projected_rating_high": 4.666
+    },
+    {
+      "theme": "SLOW_PERFORMANCE",
+      "primary_count": 134,
+      "mentions_count": 186,
+      "estimated_lift_low": 0.016,
+      "estimated_lift_high": 0.023,
+      "projected_rating_low": 4.655,
+      "projected_rating_high": 4.661
+    },
+    {
+      "theme": "BOOKING",
+      "primary_count": 132,
+      "mentions_count": 199,
+      "estimated_lift_low": 0.016,
+      "estimated_lift_high": 0.024,
+      "projected_rating_low": 4.654,
+      "projected_rating_high": 4.663
+    },
+    {
+      "theme": "UI_REDESIGN",
+      "primary_count": 103,
+      "mentions_count": 139,
+      "estimated_lift_low": 0.013,
+      "estimated_lift_high": 0.017,
+      "projected_rating_low": 4.651,
+      "projected_rating_high": 4.655
+    },
+    {
+      "theme": "SUPPORT",
+      "primary_count": 86,
+      "mentions_count": 154,
+      "estimated_lift_low": 0.011,
+      "estimated_lift_high": 0.019,
+      "projected_rating_low": 4.649,
+      "projected_rating_high": 4.657
+    },
+    {
+      "theme": "ROUTING_STOPS",
+      "primary_count": 78,
+      "mentions_count": 103,
+      "estimated_lift_low": 0.01,
+      "estimated_lift_high": 0.013,
+      "projected_rating_low": 4.648,
+      "projected_rating_high": 4.651
+    },
+    {
+      "theme": "RATING_FEEDBACK",
+      "primary_count": 58,
+      "mentions_count": 71,
+      "estimated_lift_low": 0.007,
+      "estimated_lift_high": 0.009,
+      "projected_rating_low": 4.645,
+      "projected_rating_high": 4.647
+    },
+    {
+      "theme": "DRIVER_CONTACT",
+      "primary_count": 42,
+      "mentions_count": 68,
+      "estimated_lift_low": 0.005,
+      "estimated_lift_high": 0.008,
+      "projected_rating_low": 4.643,
+      "projected_rating_high": 4.647
+    }
+  ],
+  "upper_bound_rating": 4.84,
+  "top_3_gain_range": "+0.06 to +0.09",
+  "developer_replies": {
+    "one_two_star": {
+      "total": 1671,
+      "replied": 69,
+      "rate_pct": 4.1,
+      "median_hours": 148.9,
+      "median_days": 6.2
+    },
+    "four_five_star": {
+      "total": 1446,
+      "replied": 33,
+      "rate_pct": 2.3,
+      "median_hours": 73.7,
+      "median_days": 3.1
+    },
+    "canned_replies": {
+      "canned_count": 27,
+      "total_replies": 103,
+      "canned_share_pct": 26.2
+    }
+  },
+  "near_duplicates": {
+    "filter": ">= 15 words, cosine similarity > 0.85",
+    "total_pairs_flagged": 0,
+    "status": "possible templated text, not verified",
+    "sample_pairs": []
+  },
+  "helpfulness_ranking": [
+    {
+      "theme": "LOCATION_ETA",
+      "reviews_mentioning": 230,
+      "total_thumbs_up": 128,
+      "max_single_review_thumbs": 27
+    },
+    {
+      "theme": "BOOKING",
+      "reviews_mentioning": 199,
+      "total_thumbs_up": 108,
+      "max_single_review_thumbs": 27
+    },
+    {
+      "theme": "UI_REDESIGN",
+      "reviews_mentioning": 139,
+      "total_thumbs_up": 95,
+      "max_single_review_thumbs": 23
+    },
+    {
+      "theme": "APP_CRASH_OPEN",
+      "reviews_mentioning": 201,
+      "total_thumbs_up": 89,
+      "max_single_review_thumbs": 27
+    },
+    {
+      "theme": "LOGIN_OTP",
+      "reviews_mentioning": 274,
+      "total_thumbs_up": 84,
+      "max_single_review_thumbs": 11
+    },
+    {
+      "theme": "SUPPORT",
+      "reviews_mentioning": 154,
+      "total_thumbs_up": 64,
+      "max_single_review_thumbs": 15
+    },
+    {
+      "theme": "DRIVER_CONTACT",
+      "reviews_mentioning": 68,
+      "total_thumbs_up": 52,
+      "max_single_review_thumbs": 12
+    },
+    {
+      "theme": "FEATURE_REQUEST",
+      "reviews_mentioning": 84,
+      "total_thumbs_up": 46,
+      "max_single_review_thumbs": 12
+    },
+    {
+      "theme": "NO_SHOW",
+      "reviews_mentioning": 62,
+      "total_thumbs_up": 43,
+      "max_single_review_thumbs": 15
+    },
+    {
+      "theme": "SLOW_PERFORMANCE",
+      "reviews_mentioning": 186,
+      "total_thumbs_up": 40,
+      "max_single_review_thumbs": 7
+    },
+    {
+      "theme": "NOTIFICATIONS",
+      "reviews_mentioning": 55,
+      "total_thumbs_up": 29,
+      "max_single_review_thumbs": 8
+    },
+    {
+      "theme": "ROUTING_STOPS",
+      "reviews_mentioning": 103,
+      "total_thumbs_up": 22,
+      "max_single_review_thumbs": 3
+    },
+    {
+      "theme": "RATING_FEEDBACK",
+      "reviews_mentioning": 71,
+      "total_thumbs_up": 17,
+      "max_single_review_thumbs": 7
+    },
+    {
+      "theme": "PARKING_SEAT",
+      "reviews_mentioning": 20,
+      "total_thumbs_up": 17,
+      "max_single_review_thumbs": 8
+    },
+    {
+      "theme": "PERMISSIONS",
+      "reviews_mentioning": 23,
+      "total_thumbs_up": 16,
+      "max_single_review_thumbs": 10
+    },
+    {
+      "theme": "OTHER_DRIVER_BEHAVIOUR",
+      "reviews_mentioning": 44,
+      "total_thumbs_up": 6,
+      "max_single_review_thumbs": 2
+    },
+    {
+      "theme": "OTHER:SERVICE_QUALITY",
+      "reviews_mentioning": 21,
+      "total_thumbs_up": 2,
+      "max_single_review_thumbs": 1
+    },
+    {
+      "theme": "OTHER:connectivity_issue",
+      "reviews_mentioning": 2,
+      "total_thumbs_up": 2,
+      "max_single_review_thumbs": 1
+    },
+    {
+      "theme": "OTHER:qr_scanner",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 1,
+      "max_single_review_thumbs": 1
+    },
+    {
+      "theme": "OTHER:GENERAL_EXPERIENCE",
+      "reviews_mentioning": 3,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:APP_QUALITY",
+      "reviews_mentioning": 9,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:TRANSPORT_OPERATIONS",
+      "reviews_mentioning": 3,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:qr_scanning",
+      "reviews_mentioning": 2,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:general_quality",
+      "reviews_mentioning": 3,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:RELIABILITY",
+      "reviews_mentioning": 4,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:SERVICE_EXPERIENCE",
+      "reviews_mentioning": 2,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:frequent_bugs",
+      "reviews_mentioning": 2,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:installation",
+      "reviews_mentioning": 2,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:poor_service",
+      "reviews_mentioning": 2,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:MANAGEMENT",
+      "reviews_mentioning": 3,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:bugs",
+      "reviews_mentioning": 2,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:COMPETITOR_COMPARISON",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:safety",
+      "reviews_mentioning": 4,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:USABILITY",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:overly_secure",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:SAFETY_SOS",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:ACCESS_RESTRICTION",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:OPERATIONS",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:FREQUENT_UPDATES",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:TECH_STACK",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:updates",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:text_limit",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:FLASHLIGHT_BUG",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:service_quality",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:qr_scanning_failure",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:general_app_quality",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:unclear_feedback",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:GENERAL_QUALITY",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:MANDATORY_USAGE",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:ADDRESS_UPDATE",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:PREVIOUS_VERSION_PREFERRED",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:screen_sharing_restriction",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:weekend_service",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:management",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:general_bugs",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:SYSTEM",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:limited_options",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:transport_clubbing",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:cab_service_quality",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:transport_service",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:EXCESSIVE_CALLS",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:QR_SCANNING",
+      "reviews_mentioning": 2,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:battery_drain",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:maintenance",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    },
+    {
+      "theme": "OTHER:management_issue",
+      "reviews_mentioning": 1,
+      "total_thumbs_up": 0,
+      "max_single_review_thumbs": 0
+    }
+  ]
+}

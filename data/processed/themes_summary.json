@@ -1,0 +1,67 @@
+{
+  "avg_score": 2.734,
+  "total_reviews": 500,
+  "one_star_pct": 49.0,
+  "top_themes": [
+    {
+      "primary_theme": "Other",
+      "count": 310,
+      "avg_score": 3.3645161290322583,
+      "lift_if_fixed": -1.0287368421052632
+    },
+    {
+      "primary_theme": "Location/ETA inaccurate or stale",
+      "count": 38,
+      "avg_score": 1.763157894736842,
+      "lift_if_fixed": 0.07985281385281384
+    },
+    {
+      "primary_theme": "App crashes/Won't open",
+      "count": 34,
+      "avg_score": 1.5588235294117647,
+      "lift_if_fixed": 0.08574248927038619
+    },
+    {
+      "primary_theme": "UI redesign backlash",
+      "count": 29,
+      "avg_score": 2.103448275862069,
+      "lift_if_fixed": 0.03882377919320579
+    },
+    {
+      "primary_theme": "Support unresponsive/rude",
+      "count": 27,
+      "avg_score": 1.9259259259259258,
+      "lift_if_fixed": 0.046126849894291944
+    },
+    {
+      "primary_theme": "Booking failures",
+      "count": 22,
+      "avg_score": 1.3636363636363635,
+      "lift_if_fixed": 0.06307112970711293
+    },
+    {
+      "primary_theme": "Login/OTP failure or auto-logout",
+      "count": 19,
+      "avg_score": 1.5263157894736843,
+      "lift_if_fixed": 0.04770478170478176
+    },
+    {
+      "primary_theme": "Driver calling blocked/no chat",
+      "count": 11,
+      "avg_score": 1.8181818181818181,
+      "lift_if_fixed": 0.02060122699386513
+    },
+    {
+      "primary_theme": "Notification spam",
+      "count": 5,
+      "avg_score": 1.2,
+      "lift_if_fixed": 0.015494949494949672
+    },
+    {
+      "primary_theme": "Unfair No Show marking",
+      "count": 5,
+      "avg_score": 1.2,
+      "lift_if_fixed": 0.015494949494949672
+    }
+  ]
+}

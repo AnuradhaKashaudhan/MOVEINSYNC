@@ -1,0 +1,1069 @@
+################################################################################
+MOVEINSYNC PLAY STORE REVIEWS - MANUALLY COLLECTED SEED SET
+################################################################################
+Total reviews : 110 (duplicates removed; pasted text + screenshots merged)
+Date range    : Oct 2018 - 16 Sep 2026 (most are Jun-Sep 2026)
+Order         : newest first; reviews with no visible date are at the end
+Headline stat : Play Store overall 4.6 | about 1.15 lakh reviews | ~85% 5-star, ~8% 1-star
+
+FIELD GUIDE
+  ID        : R001... (reviewer names removed on purpose)
+  Date      : as shown on Play Store
+  Stars     : known only for reviews captured from screenshots, else "unknown"
+  Helpful   : number of "found this review helpful" (0 = none shown)
+  Themes    : my manual tags (see list below)
+  Sentiment : Positive / Mixed / Negative
+  Text      : review text, kept verbatim (typos left as-is)
+  Reply     : developer reply text, or "none"
+
+THEME TAGS
+  LOCATION_ETA     live tracking / ETA / location wrong or stale
+  APP_CRASH_OPEN   app will not open, crashes, "not installed" error, errors
+  SLOW_PERFORMANCE slow loading / lag
+  SUPPORT          helpdesk / developer / vendor unresponsive or rude
+  NO_SHOW          unfair or surprising No Show marking
+  LOGIN_OTP        login, OTP, forced logout
+  BOOKING          booking / cancel / schedule failures or limits
+  NOTIFICATIONS    too many, late, missing or wrong notifications
+  UI_REDESIGN      UI confusing, update regressions, removed features
+  DRIVER_CONTACT   cannot call or chat with the driver
+  PERMISSIONS      forced microphone / location permissions
+  ROUTING_STOPS    routes, pickup stops, nodal points, cab pooling
+  FEATURE_REQUEST  user suggestion for a new feature
+  PARKING_SEAT     parking / desk / seat booking
+  RATING_FEEDBACK  rating prompts or no feedback option
+  OTHER_DRIVER_BEHAVIOUR  driver conduct (speeding, switching off app)
+  POSITIVE         praise
+
+DATA NOTES (read before using)
+  1. Some developer reply dates are earlier than the review date in the source
+     (R080, R090, R096, R097). Copied as shown; treat those reply dates as unreliable.
+  2. Possible templated or near-identical reviews, check manually:
+       - R065 and R076 (support useless + "don't believe the high ratings")
+       - R067 and R081 (GPS unreliable + delayed/missing notifications)
+  3. A review dated 1 Jul 2026 (1 star, GPS tracking) was cut off in the
+     screenshot, so it is NOT included. R088 (2 stars, Nov 2024) is partly cut off.
+  4. Sample is biased toward negative and recent reviews. Do not read counts
+     from this file as true percentages.
+
+################################################################################
+REVIEWS - 2026
+################################################################################
+
+[R001]
+Date: 16 Sep 2026
+Stars: unknown
+Helpful: 0
+Themes: APP_CRASH_OPEN, UI_REDESIGN
+Sentiment: Negative
+Text: useless app, need to uninstall very frequently and install ...i guess developer forgot make it compatible to android 17. just open the app and leave it it doesn't display anything. User don't have any control on app.. the for what sake the app is?? just do rostering ???
+Reply: none
+
+[R002]
+Date: 16 Sep 2026
+Stars: unknown
+Helpful: 0
+Themes: NOTIFICATIONS
+Sentiment: Negative
+Text: I keep getting pop-ups regarding cab delay notification. one notification would be sufficient but I keep getting pop-ups every few minutes.
+Reply: none
+
+[R003]
+Date: 14 Sep 2026
+Stars: unknown
+Helpful: 0
+Themes: LOCATION_ETA
+Sentiment: Negative
+Text: damned!! worst app. Can't do live tracking or live boarding activities. suddenly it shows up at your location. You guys loved surprises huh??!!! Ridiculous
+Reply: none
+
+[R004]
+Date: 14 Sep 2026
+Stars: unknown
+Helpful: 0
+Themes: LOCATION_ETA, POSITIVE
+Sentiment: Mixed
+Text: Easy to use...does what it is supposed to do...If I have to nitpick then, yes improve the map capabilities
+Reply: none
+
+[R005]
+Date: 10 Sep 2026
+Stars: unknown
+Helpful: 0
+Themes: DRIVER_CONTACT, BOOKING, SUPPORT
+Sentiment: Negative
+Text: waste app. driver will come to pickup point and wait for 1 hour but won't give a short call. this app will only accept 12 hour prior booking and 4 hour before return booking. rapido. uber and ola are better than this app
+Reply: none
+
+[R006]
+Date: 9 Sep 2026
+Stars: unknown
+Helpful: 0
+Themes: FEATURE_REQUEST, DRIVER_CONTACT
+Sentiment: Neutral
+Text: Can we get a chat+location option in this as it is difficult to co-ordinate with each other when there is a new pickup
+Reply: none
+
+[R007]
+Date: 9 Sep 2026
+Stars: unknown
+Helpful: 0
+Themes: LOGIN_OTP
+Sentiment: Negative
+Text: Unable to login in the App. Both Mobile Otp and Email OTP options are not working
+Reply: none
+
+[R008]
+Date: 9 Sep 2026
+Stars: unknown
+Helpful: 0
+Themes: APP_CRASH_OPEN
+Sentiment: Negative
+Text: app keeps showing no network even though the network is stable and all other apps working fine
+Reply: none
+
+[R009]
+Date: 8 Sep 2026
+Stars: unknown
+Helpful: 0
+Themes: LOCATION_ETA
+Sentiment: Negative
+Text: The Cab Tracker is useless, and it doesn't even update on time.
+Reply: none
+
+[R010]
+Date: 7 Sep 2026
+Stars: unknown
+Helpful: 0
+Themes: RATING_FEEDBACK
+Sentiment: Negative
+Text: does give option to rate the trip, irrespective it's complete, no show or give any feedback
+Reply: none
+
+[R011]
+Date: 1 Sep 2026
+Stars: unknown
+Helpful: 0
+Themes: BOOKING, SUPPORT
+Sentiment: Negative
+Text: unable to book cabs and even the support team is not helping fix the issue ...
+Reply: none
+
+[R012]
+Date: 1 Sep 2026
+Stars: unknown
+Helpful: 0
+Themes: APP_CRASH_OPEN
+Sentiment: Negative
+Text: third class app, not working on mobile data anymore from last few days. works only on wifi. do you expect people carry wifi.
+Reply: none
+
+[R013]
+Date: 31 Aug 2026
+Stars: unknown
+Helpful: 2
+Themes: PARKING_SEAT, FEATURE_REQUEST
+Sentiment: Negative
+Text: There should be an option to directly search for seat number instead of using the map. There should be an option to set default floor in app and portal. Multiple times for multiple people, the seat number (booking shows but without desk allocation) gets removed for bookings which is a major bug
+Reply: none
+
+[R014]
+Date: 31 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: PARKING_SEAT, FEATURE_REQUEST, POSITIVE
+Sentiment: Positive
+Text: app is good, just need one improvement, if it could send a notification in the morning as reminder on the day when I have booked the parking.
+Reply: none
+
+[R015]
+Date: 27 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: SUPPORT, DRIVER_CONTACT
+Sentiment: Negative
+Text: routematic has better service than this.. they dont pickup calls and the vehicle allocated is just for name sake
+Reply: none
+
+[R016]
+Date: 26 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: LOCATION_ETA, APP_CRASH_OPEN, RATING_FEEDBACK
+Sentiment: Negative
+Text: location and its root is accurate many times, hangs for unknown reasons, no feedback option to feedback about the app, it has a lot of sleeping defects, if it's not improved the app will reach the end of life soon.
+Reply: none
+
+[R017]
+Date: 24 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: FEATURE_REQUEST, UI_REDESIGN, POSITIVE
+Sentiment: Positive
+Text: New interface is better. Currently the only App shortcuts available are 'Create schedule' & 'Bus'. MoveInSync should allow QR code scanner as an App shortcut along with. Rather than going in to the app everytime, an App shortcut for QR code scanner makes things even better.
+Reply: none
+
+[R018]
+Date: 21 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: ROUTING_STOPS, LOCATION_ETA, SUPPORT
+Sentiment: Negative
+Text: They provide pickup and drop to the middle of nowhere from where its double work reaching our home or office from their stops. Very bad service. Today to pickup 3 people they send a 12 seater TT moreover the pickup was supposed to be at 11 the driver reached almost 40 minutes late. Most of the employees will avoid taking their services since it's so terrible. They're not ready to add more stops or improve the service. Also certain stops which are available during pickup disappear at drop booking
+Reply: none
+
+[R019]
+Date: 21 Aug 2026
+Stars: unknown
+Helpful: 1
+Themes: ROUTING_STOPS, SUPPORT
+Sentiment: Mixed
+Text: works well overall, but they don't listen to feedback. for example, pick ups from same apartment complex are scheduled with difference of upto 5 minutes. So, I come to the cab everyday, and wait 5 minutes for next passanger, and then another 5 minutes for the third passanger coming from same building. the third passanger can come upto 5 minutes late. so, I have waiting time of 10-15 minutes everyday just sitting in the cab. They don't care enough to fix it even after raising it 100s of times.
+Reply: none
+
+[R020]
+Date: 19 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: LOCATION_ETA
+Sentiment: Negative
+Text: Worthless app..Driver arrival shows in 5mins when we leave home to the pick point changes to 30mins..I mean changing to another 5mins makes sense but 30mins is way too much...most of the time this happens
+Reply: none
+
+[R021]
+Date: 17 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: SUPPORT, UI_REDESIGN
+Sentiment: Negative
+Text: This is a third class app which is not at all user friendly for employees, this is just made to the convenience of vendors,Help desk and vendors are not at all helpful on this app...they don't even consider your concerns.... worst transportation app I've ever used.
+Reply: none
+
+[R022]
+Date: 17 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: NO_SHOW, FEATURE_REQUEST, POSITIVE
+Sentiment: Positive
+Text: easy app. can have option to mark no show by self, in case of missing the ride on purpose so the driver doesn't have to wait till no response.
+Reply: none
+
+[R023]
+Date: 17 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: APP_CRASH_OPEN, LOCATION_ETA, NOTIFICATIONS
+Sentiment: Negative
+Text: not a complete soution , not work when most required , cab location always wrong , message alerts are not at time,
+Reply: none
+
+[R024]
+Date: 14 Aug 2026
+Stars: unknown
+Helpful: 2
+Themes: UI_REDESIGN, POSITIVE
+Sentiment: Positive
+Text: I love the service they are providing. worked with 2 organisations with this app, and has made my commute simplified, transition seamless and everything works perfectly. I honestly hate the ui, and it is unintuitive to change location and stuff. but I am still gonna rate 5 stats because I support their mission.
+Reply: none
+
+[R025]
+Date: 12 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: LOCATION_ETA
+Sentiment: Negative
+Text: Very bad experience. The device is showing a completely different location from the one we updated in the app.
+Reply: none
+
+[R026]
+Date: 12 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: APP_CRASH_OPEN
+Sentiment: Negative
+Text: Doesn't Open, always gets stuck. tried all options reinstall, upgrade, different networks.
+Reply: none
+
+[R027]
+Date: 11 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: ROUTING_STOPS, LOCATION_ETA
+Sentiment: Negative
+Text: they are not making shorter routes they schedule long and time taking routes cab delay every time in new building also
+Reply: none
+
+[R028]
+Date: 10 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: LOCATION_ETA
+Sentiment: Negative
+Text: I don't know which idiot has designed this app, whenever you see the location, it shows one or two hours ago, it does not show the accurate one.I don't know what I have done with this type of API, it never shows accurate location.
+Reply: none
+
+[R029]
+Date: 10 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: APP_CRASH_OPEN
+Sentiment: Negative
+Text: Auto updates itself and then the app does not launch. The only solution is to uninstall and reinstall from play store
+Reply: none
+
+[R030]
+Date: 7 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: LOCATION_ETA, FEATURE_REQUEST
+Sentiment: Negative
+Text: this app doesn't give realtime continuous update on maps. It is updated after minutes which is very reliable. It will be helpful if they provide feature where it is updated per second same as Uber and Ola.
+Reply: none
+
+[R031]
+Date: 7 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: APP_CRASH_OPEN, LOGIN_OTP
+Sentiment: Negative
+Text: not able to open the app, automatic close in a sec. otp in mobile mail is not received. how will people use such a bad experience app. this will set very bad word of mouth experience
+Reply: none
+
+[R032]
+Date: 7 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: POSITIVE
+Sentiment: Positive
+Text: It was an amazing experienceI had a very good travel experience with the office cab service. The cab was clean and comfortable, the driver was polite and professional, and the journey was smooth and safe. Overall, I'm satisfied with the transportation service. Thank you for providing a convenient and comfortable travel experience. Special Thanks to moveinsync & Wipro.
+Reply: none
+
+[R033]
+Date: 5 Aug 2026
+Stars: unknown
+Helpful: 0
+Themes: SLOW_PERFORMANCE, LOCATION_ETA, POSITIVE
+Sentiment: Mixed
+Text: good ... but it takes a lot of time to reload... & location is not accurate, little bit issues... & while opening application - every i have to accept the transport policies by clicking i agree... feel a little bit lag ,
+Reply: none
+
+[R034]
+Date: 3 Aug 2026
+Stars: unknown
+Helpful: 1
+Themes: PERMISSIONS
+Sentiment: Negative
+Text: Hi Team, The MoveInSync app is forcing users to grant microphone access, even though it does not provide any direct in-app calling feature and all calls are routed through the regular phone dialer. Could you please clarify why microphone permission is mandatory? If it is not essential for the core functionality of the app, please stop forcing users to grant this permission and allow the app to function without it. Greater transparency around permission requirements would be appreciated.
+Reply: none
+
+[R035]
+Date: 3 Aug 2026
+Stars: unknown
+Helpful: 1
+Themes: APP_CRASH_OPEN, FEATURE_REQUEST, UI_REDESIGN
+Sentiment: Mixed
+Text: overall a good app, but bring back seeing who all are traveling with you and their sequence number, also the app sometimes refuses to open and displays a message that says the app cannot be opened as it is not installed when it's clearly installed and i have to uninstall and reinstall and this has happened a few times so fix that bug
+Reply: none
+
+[R036]
+Date: 3 Aug 2026
+Stars: unknown
+Helpful: 1
+Themes: LOCATION_ETA, UI_REDESIGN
+Sentiment: Negative
+Text: when we have zoomed in the map to track a vehicle what's the necessity to zoom out and show the ETA
+Reply: none
+
+[R037]
+Date: 30 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: APP_CRASH_OPEN
+Sentiment: Negative
+Text: having frequent trouble in opening the app. throwing error that the app was not installed thru playstore. frustrating
+Reply: none
+
+[R038]
+Date: 29 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: APP_CRASH_OPEN
+Sentiment: Negative
+Text: we use this app for our office commute, but it always crashes, giving an error that this app is not downloaded from app store, and then I have to uninstall and install it again, it happens quite often, can you'll please fix this issue
+Reply: none
+
+[R039]
+Date: 28 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: LOCATION_ETA, UI_REDESIGN
+Sentiment: Negative
+Text: Pathetic experience. nothing gets updated in real-time. It's extremely not user friendly.
+Reply: none
+
+[R040]
+Date: 24 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: POSITIVE, UI_REDESIGN
+Sentiment: Positive
+Text: Easy to understand and navigate to features... over all user friendly interface... Nice.
+Reply: none
+
+[R041]
+Date: 23 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: RATING_FEEDBACK, NOTIFICATIONS
+Sentiment: Negative
+Text: Please stop excessively notifying for Play Store reviews after every ride. It's wasting user time by repeated clicks.
+Reply: none
+
+[R042]
+Date: 21 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: NO_SHOW, SUPPORT, BOOKING
+Sentiment: Negative
+Text: Worst service I've ever experienced. I wish I could give 0 stars—they deserve -10000. My logout cab was scheduled for 6 PM. I waited for over 2 hours, calling customer support multiple times. They first told me to wait, then stopped answering my calls. Eventually, I had to walk home exhausted, hungry, and with a headache because no other cabs were available. To make it worse, they marked me as a "No Show," blaming me for their failure. Completely unacceptable.
+Reply: none
+
+[R043]
+Date: 21 Jul 2026
+Stars: unknown
+Helpful: 5
+Themes: SLOW_PERFORMANCE, APP_CRASH_OPEN
+Sentiment: Negative
+Text: The app load times are becoming crazy it takes 20 seconds to load the content these days. Sometimes I have to force close and reopen the app to get the content to load.
+Reply: none
+
+[R044]
+Date: 21 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: LOCATION_ETA
+Sentiment: Negative
+Text: Address and locations are not matching, different location show's up for the address entered.
+Reply: none
+
+[R045]
+Date: 19 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: BOOKING, SUPPORT
+Sentiment: Negative
+Text: I have not been able to book for pickup for 2 weeks. I have reported the issue, but no feedback
+Reply: none
+
+[R046]
+Date: 17 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: ROUTING_STOPS, SUPPORT
+Sentiment: Negative
+Text: utter disaster, this app algorithm is worse, it took me 2.5 hr to reach my home to which I usually reach in 50 minutes if I take a long route. they have paired with people who belong to different areas. no one responded even after raising my concern.
+Reply: none
+
+[R047]
+Date: 15 Jul 2026
+Stars: unknown
+Helpful: 1
+Themes: PERMISSIONS, BOOKING
+Sentiment: Negative
+Text: does not let you book a bus if location accuracy is off. why do you need location accuracy? are you going to bring the bus to my house? well it does not even let you scan QR code now without location accuracy. thanks guys. any more ways you can make your app more useless?
+Reply: none
+
+[R048]
+Date: 15 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: NO_SHOW, FEATURE_REQUEST, POSITIVE
+Sentiment: Positive
+Text: App is very good but still room for improvement. Need to give acces tobuser for No Show option. so that cab driver should get notification and 2nd is user should have access to make his default.
+Reply: none
+
+[R049]
+Date: 10 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: UI_REDESIGN, LOCATION_ETA
+Sentiment: Negative
+Text: before the upgrade the app was good as we could see the shuttles location which is now not available causing tremendous inconvenience
+Reply: none
+
+[R050]
+Date: 9 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: FEATURE_REQUEST, ROUTING_STOPS
+Sentiment: Negative
+Text: app didn't included with the building name and floor details of the cab pickup. this makes it very difficult to go and find the place.
+Reply: none
+
+[R051]
+Date: 7 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: FEATURE_REQUEST, LOCATION_ETA
+Sentiment: Neutral
+Text: As an employee, I am unable to see the pickup locations of my fellow cab mates. Since employees are picked up from different locations, it would be helpful if the app displayed each cab mate's pickup location (for example, Pratap Vihar, Ghaziabad; Vijay Nagar, Ghaziabad; or Sector 62, Noida). This would help us understand the pickup sequence and estimated arrival time more accurately.
+Reply: none
+
+[R052]
+Date: 7 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: POSITIVE, DRIVER_CONTACT
+Sentiment: Positive
+Text: Good app all the information for cab in one place and also they call and ask if we are facing any issue if the cab gets delayed on the road for a few mins.
+Reply: none
+
+[R053]
+Date: 7 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: POSITIVE
+Sentiment: Positive
+Text: Amazing transportation app consists of professional drivers, well behaved, on time, all time preferable.
+Reply: none
+
+[R054]
+Date: 7 Jul 2026
+Stars: 1
+Helpful: 3
+Themes: UI_REDESIGN, BOOKING
+Sentiment: Negative
+Text: The recent updates in the UI have made the app very difficult to use. Booking a shuttle is now a 2 step process previously it used to be 1. I got confused and thought I had booked a cab while I hadn't. Was too late in realising that. Such major changes need to be released in a better way rather than just throwing them in the user's face. Another bad thing is even though I am in 1 cab but I can see all the ones available for that time. I don't need to see others, just show me mine.
+Reply: none
+
+[R055]
+Date: 6 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: POSITIVE, UI_REDESIGN
+Sentiment: Positive
+Text: The easiest and quickest way to use this app and I am extremely happy with the smooth use of the app
+Reply: none
+
+[R056]
+Date: 3 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: APP_CRASH_OPEN, BOOKING, SLOW_PERFORMANCE
+Sentiment: Negative
+Text: The app frequently shows errors, and the overall performance is not very smooth. There is definitely room for improvement. For example, when I try to book a schedule, the process often fails and the booking is not completed. Please look into this issue and improve the app's stability and performance.
+Reply: none
+
+[R057]
+Date: 1 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: ROUTING_STOPS
+Sentiment: Negative
+Text: the cab was delay because of rain but please take only 3 passengers in a 4 seater cab, as it not comfortable to sit with 3 passengers on the back side, please add the 3 people in the cab, in this cab there were 3 people in the backsides and 1 person was huge in height body so it was very uncomfortable to sit with them.
+Reply: none
+
+[R058]
+Date: 1 Jul 2026
+Stars: unknown
+Helpful: 0
+Themes: NOTIFICATIONS
+Sentiment: Negative
+Text: worst app. Lots of notifications without any reason. even when the trip is completed
+Reply: none
+
+[R059]
+Date: 29 Jun 2026
+Stars: unknown
+Helpful: 0
+Themes: UI_REDESIGN, BOOKING, LOCATION_ETA
+Sentiment: Negative
+Text: The previous app was easy to use and showed shuttle timing more precisely.This app is not very helpful and gives me a hard time to search the shuttle timings. Also about the scheduled cab , the cabs are not allotted and it asks us whether we are reached to the destination.
+Reply: none
+
+[R060]
+Date: 29 Jun 2026
+Stars: unknown
+Helpful: 1
+Themes: OTHER_DRIVER_BEHAVIOUR
+Sentiment: Negative
+Text: But sometimes The Drivers tap on the forcestop and switched it off and speeding beyond the limits resolve this bug...
+Reply: none
+
+[R061]
+Date: 29 Jun 2026
+Stars: unknown
+Helpful: 0
+Themes: LOCATION_ETA
+Sentiment: Negative
+Text: most of the time driver location get stuck and keeps on showing at same place for like 30 mins
+Reply: none
+
+[R062]
+Date: 29 Jun 2026
+Stars: unknown
+Helpful: 0
+Themes: APP_CRASH_OPEN
+Sentiment: Negative
+Text: Unreliable application. Sometimes their application is down and it creates chaos.
+Reply: none
+
+[R063]
+Date: 29 Jun 2026
+Stars: 1
+Helpful: 6
+Themes: NO_SHOW, NOTIFICATIONS, FEATURE_REQUEST
+Sentiment: Negative
+Text: I had a suggestion to add a smart notification feature to remind the user for check-in after the vehicle crosses their pickup point. Sometimes, the vehicle arrives late or we miss by mistake to check-in, then we are marked as "No show" and it comes as a surprise. Introducing this one feature will help a lot for both transportation and end users. This may sound silly but even a small thing matters a lot.
+Reply: none
+
+[R064]
+Date: 28 Jun 2026
+Stars: unknown
+Helpful: 0
+Themes: LOGIN_OTP
+Sentiment: Negative
+Text: unable to get otp via message, whatsapp or email. may be their is some glitch. hope the team is working on it.
+Reply: none
+
+[R065]
+Date: 20 Jun 2026
+Stars: unknown
+Helpful: 0
+Themes: SUPPORT, LOCATION_ETA
+Sentiment: Negative
+Text: Total waste of time. Support is useless and the staff is incredibly rude. To make matters worse, the app is a mess—pickup times change constantly, so you never actually know when your ride is coming. Don't believe the high ratings; this service is untrustworthy and frustrating to use.
+Reply: none
+
+[R066]
+Date: 18 Jun 2026
+Stars: unknown
+Helpful: 0
+Themes: BOOKING, NO_SHOW, RATING_FEEDBACK
+Sentiment: Negative
+Text: I am extremely frustrated with this app. Booking transport has become unnecessarily difficult because even when I carefully select specific dates, the system ends up creating bookings for completely different dates.To make matters worse, I was reported as a "No Show" despite having made a booking. What is even more confusing is that I then received a notification asking me to rate the trip, yet the system claims I never showed up. How does that make any sense?Fees will be deducted from my salary
+Reply: none
+
+[R067]
+Date: 11 Jun 2026
+Stars: 1
+Helpful: 8
+Themes: LOCATION_ETA, NOTIFICATIONS
+Sentiment: Negative
+Text: The GPS tracking system is often unreliable and sometimes shows the driver at an incorrect location, which can lead to unnecessary delays. In addition, the estimated arrival time displayed by the GPS tracker is frequently inaccurate, and the pickup time is rarely synchronized correctly. This has occasionally resulted in missed cab pickups. Notifications are also often delayed or, at times, not received at all, causing me to miss important updates regarding my ride.
+Reply: none
+
+[R068]
+Date: 2 Jun 2026
+Stars: unknown
+Helpful: 8
+Themes: POSITIVE, LOCATION_ETA, DRIVER_CONTACT
+Sentiment: Positive
+Text: Very smooth experience.We can track the vehicle on a real time which is an USP of this app.Even it provides you the number of employees travelling along with you which was not the case earlier.Even calling the driver has become easier than before.Booking the cab also has become hassle free.App too runs reliably without any hiccups.Its very convenient to use too.No ads.
+Reply: none
+
+[R069]
+Date: 13 May 2026
+Stars: unknown
+Helpful: 1
+Themes: LOGIN_OTP
+Sentiment: Negative
+Text: Keeps logging out after every 5 to 10 mins of inactivity on the app. Logging in again requires authentication via company's app which is time consuming. Also this poses a problem especially for female passengers who want to report something urgently or send an SOS but are force logged out and have to do the whole long procedure of logging in
+Reply: none
+
+[R070]
+Date: 7 May 2026
+Stars: unknown
+Helpful: 0
+Themes: BOOKING, FEATURE_REQUEST, POSITIVE
+Sentiment: Mixed
+Text: Nice and easy to use app. But sometimes accidental touches on the phone is resulting in trips being unintentionally cancelled, this causes stress and frustration for people logging out in early morning like 3 AM IST. Hence please put a safety feature which requires multiple confirmation for cancelling a trip, so that any accidental touches on the phone doesn't cancel a trip.
+Reply: none
+
+[R071]
+Date: 28 Apr 2026
+Stars: unknown
+Helpful: 3
+Themes: LOCATION_ETA, DRIVER_CONTACT, FEATURE_REQUEST
+Sentiment: Negative
+Text: Worst experience with this app, there is no perfect timing scheduled it changes very badly and when we try to contact the driver no response the auto reply comes (looks like the driver is not responding) and there should be a chat box for me and the driver to connect at least through msg. Please Moveinsync and update these things. Humble request.
+Reply: none
+
+[R072]
+Date: 23 Apr 2026
+Stars: unknown
+Helpful: 3
+Themes: UI_REDESIGN, SLOW_PERFORMANCE
+Sentiment: Negative
+Text: Loading and showing full screen banner on every app launch is terrible. I am opening the app to see my cab timing, tracking etc. not to see repeatedly that it's earth month or something. You are wasting my time in loading and preventing me from seeing content that I use that app for.
+Reply: none
+
+[R073]
+Date: 19 Apr 2026
+Stars: unknown
+Helpful: 1
+Themes: BOOKING, APP_CRASH_OPEN
+Sentiment: Negative
+Text: Booking Schedules are not being listed at all from the past few days. The travel desk confirms that bookings are registered and I am unable to view at all. The page is empty.
+Reply: none
+
+[R074]
+Date: 15 Apr 2026
+Stars: unknown
+Helpful: 2
+Themes: APP_CRASH_OPEN, LOGIN_OTP
+Sentiment: Negative
+Text: Worst user interface. App doesn't even load once you login using your official id. It just says "Something went wrong". Tried uninstalling and installing a couple of times but getting the same error message.
+Reply: none
+
+[R075]
+Date: 14 Apr 2026
+Stars: unknown
+Helpful: 0
+Themes: ROUTING_STOPS, FEATURE_REQUEST, POSITIVE
+Sentiment: Mixed
+Text: Although it's great, like the experience and the behaviour of the driver was top notch, but the company should be considering the voice of its driver as well. They should allot the driver to the farthest employees, whose drop location is in proximity to the driver's house. that way, it would be more easy and convenient for the driver as well to get to his family early rather than travelling back burning fuel for no reason, just because the company was too lazy to build such a system.
+Reply: none
+
+[R076]
+Date: 2 Mar 2026
+Stars: unknown
+Helpful: 8
+Themes: SUPPORT, LOCATION_ETA
+Sentiment: Negative
+Text: The service is extremely disappointing and unreliable. Customer support is useless—the representative who attended my call was rude, unprofessional, and did not attempt to resolve the issue. The app also shows incorrect timings for cab assignment and pickup, which change automatically and cause confusion. Nothing about the service feels trustworthy. It's hard to believe the high ratings are genuine, as the actual experience is far from acceptable.
+Reply: none
+
+################################################################################
+REVIEWS - 2025
+################################################################################
+
+[R077]
+Date: 23 Dec 2025
+Stars: unknown
+Helpful: 5
+Themes: LOGIN_OTP, DRIVER_CONTACT
+Sentiment: Negative
+Text: Most frustrating aspect of this app is, when cab is waiting for you and you are in hurry, you will be logged out with no access to cab number/otp/call option to helpdesk etc. We do get regular SMS but what if we have to contact driver/help desk?? This is possible once when we can access the app!!! App team should be mindful about the frequency of logouts. I use multiple workplace apps like smartq, pluxee etc but non have this issue of suprise logouts that too when you are in hurry!!
+Reply: none
+
+[R078]
+Date: 11 Dec 2025
+Stars: unknown
+Helpful: 1
+Themes: ROUTING_STOPS
+Sentiment: Negative
+Text: Recently, many nodal points have been removed from the list. Earlier, the options were much better. I request you to kindly add a few more nodal points. It's not easy to walk long distances every day while carrying heavy bags. If home pick-up and drop are not possible, the nodal points should at least be closer. Our jobs are already stressful, and the commute should not add to that burden. Please consider the employees' perspective—walking 1 km daily just to reach the cab is quite difficult.
+Reply: none
+
+[R079]
+Date: 28 Nov 2025
+Stars: unknown
+Helpful: 2
+Themes: LOCATION_ETA, SUPPORT, BOOKING
+Sentiment: Negative
+Text: Very inaccurate app, estimated time of pickup is always wrong. it will waste your time. Does not update vehicle locations a lot of times. I've been using this app for 4-5 months now even after multiple complaints to the team to get it fixed there is no response or fix in the app. The edit pickup location doesn't work so once you fill in your details it's fixed. you'll have to email your handler every time. As I have no other option of commuting apart from the off shuttle i have to keep this app.
+Reply: none
+
+[R080]
+Date: 17 Sep 2025
+Stars: unknown
+Helpful: 8
+Themes: PARKING_SEAT, SUPPORT
+Sentiment: Negative
+Text: Do you even read the comments ??? Or just Blabber !!!! On multiple occasions i have observed that the app while booking a parking slot will always show waiting for me but on the other hand my colleague will always have slots available. Not an isolated scenario other colleagues also have seen the same behaviour. Seems the app gives preference to some Not sure why the discrepancies. I have written to the mail team multiple times but got no reply. Hence added it here.
+Reply: Hi, this might be happening because many people could be booking at the time. Why don't you try to book earlier? Please write to us at app@moveinsync.com for any questions (reply dated 4 Aug 2023 in source)
+
+[R081]
+Date: 10 Sep 2025
+Stars: 1
+Helpful: 27
+Themes: APP_CRASH_OPEN, LOCATION_ETA, NOTIFICATIONS
+Sentiment: Negative
+Text: The app frequently crashes or hangs while booking cabs, which makes it really frustrating, especially when I'm in a hurry. The GPS tracking is unreliable—it often shows the driver in the wrong location, causing unnecessary delays. Notifications are delayed or sometimes don't come at all, so I end up missing important updates about my ride.
+Reply: none
+
+[R082]
+Date: 16 Jul 2025
+Stars: unknown
+Helpful: 12
+Themes: DRIVER_CONTACT
+Sentiment: Negative
+Text: Could not call the bus driver at critical time, as if I click on the call button, it says like The company policy is not allowed to call. Because of this functionality, I have missed the bus some time. Even when I see the bus has started moving from my stop and crossing me, but I'm on the way to the bus a few feet.. could improve on this calling feature.
+Reply: none
+
+[R083]
+Date: 10 Jun 2025
+Stars: unknown
+Helpful: 4
+Themes: APP_CRASH_OPEN, SLOW_PERFORMANCE, PARKING_SEAT
+Sentiment: Negative
+Text: While doing the booking tried to open app, it crashes .. technical error, loading time is high, dam slow, not working as expected, need to really work on these problems It's really need to be optimised...hell slow..shows disabled screen for parking selection..when pick booking window is opened... 1. not able to support large load or TPS 2. Not a user friendly app 3. too many clicks and all time internal server error 4. Loading profile also fails whenever the pick time is there..
+Reply: none
+
+[R084]
+Date: 25 May 2025
+Stars: 2
+Helpful: 4
+Themes: FEATURE_REQUEST, DRIVER_CONTACT
+Sentiment: Mixed
+Text: As an employee, I appreciate the flexibility and convenience this app offers. The ability to add personalized pickup instructions would be great cause in my community they would not let a cab wait for 15 mins. I can specify exactly how I want my pickup to go down whether it's requesting the driver to arrive a certain number of minutes before my scheduled pickup time, calling me when they're a specific distance away, or even asking them to wait outside the street instead of coming inside.
+Reply: none
+
+[R085]
+Date: 15 May 2025
+Stars: 2
+Helpful: 6
+Themes: UI_REDESIGN
+Sentiment: Mixed
+Text: app works fine. But... the app leaves a lot to be desired. yeah, it works fine but things like what to do when you're stuck...the error messages are confusing, you look around for settings and all but don't find information you need. You don't know if pressing anything will have an option to revert back....easily fixable and I think it will be.
+Reply: none
+
+[R086]
+Date: 20 Feb 2025
+Stars: 3
+Helpful: 6
+Themes: BOOKING, SLOW_PERFORMANCE, POSITIVE
+Sentiment: Mixed
+Text: It's a great app to stay organised with office travel. However, if I want to change pickup/drop location, it doesn't allow me to do that without changing the shift timing. Update: for an app which has a very limited usecase, it is abysmally slow. Takes around 10-15 seconds to load even if I just have to check the OTP etc.
+Reply: none
+
+[R087]
+Date: 12 Feb 2025
+Stars: 1
+Helpful: 0
+Themes: APP_CRASH_OPEN, LOGIN_OTP
+Sentiment: Negative
+Text: It has been a frustrating experience not only to me but all of my team mates since the last update. I log in and first time it logs in to the app correctly. But after some time it shows up like the web page inside the app and not like the regular UI of app. And we cannot do any transactions properly and no tracking etc can be done. Then we have to reinstall the app and login again to make it work. Please take care of this quickly.
+Reply: none
+
+################################################################################
+REVIEWS - 2024
+################################################################################
+
+[R088]
+Date: 6 Nov 2024
+Stars: 2
+Helpful: 0
+Themes: FEATURE_REQUEST, BOOKING
+Sentiment: Mixed
+Text: There are a few suggestions which if done will make the app more user friendly: 1. If the cab arrangement is irrespective of number of bookings, and the same (approx ~20 seater) traveller comes everyday, then probably the feature of booking the cab atleast a week before can be eliminated. 2. Since the user is same everytime, the terms and conditions can be agreed and accepted at the first [TEXT CUT OFF IN SCREENSHOT]
+Reply: none
+
+[R089]
+Date: 18 Oct 2024
+Stars: unknown
+Helpful: 11
+Themes: LOGIN_OTP, APP_CRASH_OPEN
+Sentiment: Negative
+Text: After the recent update, Whenever I try to login for checking the cab details the text box entering the otp doesn't appear. Instead I get a error stating "Empty response body". Also I heard most of my colleagues are getting this error. As workaround, we had to clear the data of the app every we login. Which is a unnecessary waste of time. Kindly fix this above issue.
+Reply: none
+
+[R090]
+Date: 15 May 2024
+Stars: unknown
+Helpful: 25
+Themes: APP_CRASH_OPEN, LOCATION_ETA, SUPPORT, BOOKING
+Sentiment: Negative
+Text: Very bad experience using this app. Most of the time doesn't work and gives error. Somehow if I was able to book the seat also, at the time of boarding the bus mostly doesn't open and I end up losing my booked seat. Was hardly able to track the bus using this app. Issue reported to my company transport department many times but they also couldn't resolve my issue. If you can't provide equal treatment to all the users and can't resolve the issues faced by the users, better to not deploy such apps
+Reply: We apologize for the inconvenience. We request that you share your booking details at app@moveinsync.com and we will definitely look into it. (reply dated 5 Oct 2023 in source)
+
+################################################################################
+REVIEWS - 2023
+################################################################################
+
+[R091]
+Date: 8 Dec 2023
+Stars: unknown
+Helpful: 30
+Themes: LOCATION_ETA, UI_REDESIGN, RATING_FEEDBACK
+Sentiment: Negative
+Text: App is poorly developed. There are lot of technical issues. Textboxes do not support autocorrect and autocomplete so you have to type every letter and auto correct word gets erased. Even if you provide feedback through received notification app does not understand it and ask me to again provide feedback upon opening & blocks me. ETA for pickup and drops are very poorly calculated, always off by big margins. I have reported these bugs through app. I can't see status of bugs as well.
+Reply: Hi, sorry for the inconvenience. We are working on implementing this! It shall be available in the form of a future update, do keep an eye out! (8 Dec 2023)
+
+[R092]
+Date: 7 Aug 2023
+Stars: 2
+Helpful: 5
+Themes: UI_REDESIGN, BOOKING, NOTIFICATIONS
+Sentiment: Negative
+Text: Its GUI is not at all feasible, due to which I didn't have any idea that I haven't scheduled my logout time cabs, and it may happen multiple times. I will be going to raise this concern to the appropriate team at my work and will again be going to provide what can be the more things that should be improved. Today, I got my schedule canceled just because the notification came, and in my sleepy time, I tried opening the app, but by mistake, I clicked on cancel. Now, no guarantee of having a cab
+Reply: none
+
+[R093]
+Date: 12 Jul 2023
+Stars: 1
+Helpful: 4
+Themes: APP_CRASH_OPEN, BOOKING, SUPPORT
+Sentiment: Negative
+Text: What to rate the app...my app is not working from last 3 to 4 days. I can't roster my cab at all. I uninstalled and installed it again but it's of no use. I think you guys don't have some little sense to respond to email queries. Try to respond to mails and get app fixed. I believe you guys are like useless in working towards betterment. Not able to see how many ppl are there in the cab
+Reply: This has been fixed in version 11.3.7. Please update to this version. (17 Jul 2023)
+
+[R094]
+Date: 30 Jun 2023
+Stars: 3
+Helpful: 3
+Themes: RATING_FEEDBACK, SUPPORT
+Sentiment: Negative
+Text: Removed the option to rate rides. The app is good for booking and getting cab details. Earlier, until a few months ago, you could rate a ride, or provide feedback on it, but not anymore. Now, the driver may come half an hour late, not come at all, but there is nothing you can do to report it. This sucks.
+Reply: Hi, sorry for the inconvenience. We generally show the option to rate a trip after every ride but it may have been disabled on request by your organization. Can you email us at app@moveinsync.com with your org details and we'll see if we can get it enabled for you. (30 Jun 2023)
+
+[R095]
+Date: 8 Mar 2023
+Stars: 1
+Helpful: 2
+Themes: BOOKING, ROUTING_STOPS, SUPPORT
+Sentiment: Negative
+Text: Poor experience. The cabs are not allocated eve beyond the booking time. Had to book an Uber. We have office in 2 locations and there is no way to edit the location. When I tried to book for tomorrow default location was picked and when I cancelled it there is no way to book to the other location as it states the booking option for the day is exhausted
+Reply: Sorry for the inconvenience. Can you please reach out to your transport facility manager regarding this issue? They should be able to help you with this. Thank you. (10 Mar 2023)
+
+[R096]
+Date: 10 Jan 2023
+Stars: unknown
+Helpful: 1
+Themes: LOCATION_ETA, DRIVER_CONTACT
+Sentiment: Negative
+Text: Experience is quite good but it doesn't shows cabs correct location. And we unable to contact cab driver. Because there is no option available for showing cab driver number 😔 this point is must to add for the updation. If you are not mentioned driver number so how we could contact them. Only because of this it is hactic and irritating. Making day worst.
+Reply: We understand this can be frustrating. We are working towards making this better. Do be patient with us and update your app when you see one! (reply dated 19 Dec 2022 in source)
+
+################################################################################
+REVIEWS - 2022
+################################################################################
+
+[R097]
+Date: 29 Oct 2022
+Stars: unknown
+Helpful: 13
+Themes: BOOKING, APP_CRASH_OPEN, SUPPORT
+Sentiment: Negative
+Text: The app isn't working since past 2 days. I am unable to book the cab. The screen is just loading. Please fix the issue asap. I logged out and logged in multiple times. And also installed and uninstalled the app. Unable to book the cab. I have to book the cab in next 4 hrs. Please fix it asap. It's been a week, I haven't received any reply. My app is still not working. I need it to he fixed asap.
+Reply: Hi, Sorry about the inconvenience. Try clearing the cache or reinstalling the app. In case the issue still persists, kindly send the error screenshot to app@moveinsync.com along with the contact details so that we check this. (reply dated 25 Oct 2022 in source)
+
+[R098]
+Date: 11 Oct 2022
+Stars: 1
+Helpful: 8
+Themes: SLOW_PERFORMANCE, BOOKING, SUPPORT
+Sentiment: Negative
+Text: The app is astonishingly slow and is a pain to use. I cancelled a booking before a vehicle was alloted to me and it was reflected in the app but the next day, a driver was alloted to my "cancelled" trip. Edit: I couldn't contact any helpdesk either. There's a way to raise requests in the app but there's no way of knowing if the request has reached or is being worked upon. This is highly inconvenient.
+Reply: none
+
+[R099]
+Date: 7 Oct 2022
+Stars: unknown
+Helpful: 3
+Themes: BOOKING, SUPPORT
+Sentiment: Negative
+Text: Every time I try to book cab for login and logout, most of the time it shows error only when I do for whole week. And to deal with the issue I have to book one day at a time.... Need to fix this issue. If you are one of the developer who just acknowledge the text and sit on the feedback then it's better to not reply😇🙏
+Reply: This doesn't seem right. We want to take a closer look at this for you. Please send a note to app@moveinsync.com so we can connect. (7 Oct 2022)
+
+[R100]
+Date: 25 May 2022
+Stars: unknown
+Helpful: 5
+Themes: LOCATION_ETA, LOGIN_OTP, BOOKING, DRIVER_CONTACT
+Sentiment: Negative
+Text: Calls me multiple times to hurry up because the driver will wait only 30 more mins (because they were early). Doesn't work many times and I can't provide the OTP. Sends the cab to wrong location even after precisely updating the location pin on the map (sends the cab completely to a different area). No option to cancel the ride (at least there should be an option. Yesterday we went 15 mins only to findout an employee is not coming)
+Reply: none
+
+################################################################################
+REVIEWS - 2019 AND EARLIER (OLD, LOWER WEIGHT FOR CURRENT ANALYSIS)
+################################################################################
+
+[R101]
+Date: 25 Nov 2019
+Stars: unknown
+Helpful: 3
+Themes: APP_CRASH_OPEN, NOTIFICATIONS
+Sentiment: Negative
+Text: I am sorry, I saw what I wrote. It was not correct. I wanted to write, it stucks on every page while booking the cab sometimes. And sometimes it doesn't even open. Also I keep getting notifications that the version is not updated which is not correct, I have recently updated mine.
+Reply: That doesn't sound right! Can you give us more information at app@moveinsync.com so that we can investigate. (25 Nov 2019)
+
+[R102]
+Date: 30 Sep 2019
+Stars: 1
+Helpful: 25
+Themes: BOOKING, LOCATION_ETA
+Sentiment: Negative
+Text: The app does not let me book cab. It shows that there are no slots for that day but when I go to website and try to book the same, it works. Also, live tracking is completely unreliable. It ends up having an argument with the driver since when the cab driver is at my location, app shows that it is still 20-25 mins away.
+Reply: none
+
+[R103]
+Date: 15 Sep 2019
+Stars: 1
+Helpful: 26
+Themes: BOOKING, ROUTING_STOPS, SUPPORT
+Sentiment: Negative
+Text: The worst experience I had with the transport company and also with the app. I never ever recommend anyone to download this app. There is no proper options to cancel the ride after 24 hrs. Multiple locations cannot be selected for bus transport. The service of the tranaport company is more than worst. I would suggest to remove the vendor and make some changes where employee can get the option to arrange cab before 3 hrs.
+Reply: Hi Prashant, We are sorry for the inconvenience caused to you. We would like to inform you that the scheduling and cancellation configuration is set by your organization, if you have any issue in the cut-off timing kindly contact your internal transport team for further assistance. Thanks, MIS Team (18 Sep 2019)
+
+[R104]
+Date: 26 Aug 2019
+Stars: unknown
+Helpful: 17
+Themes: UI_REDESIGN, BOOKING
+Sentiment: Negative
+Text: The app is simply immature.. For e.g. it's hard to know what my current bookings are in a single view. More, a cancelled billing won't get off your screen. it stays there for eternity with a "cancelled"status. picking bulk dates is messy.. back and forward to select ... The UI is unintuitive and with no context help, it's pathetic UX. Updates: Change your mobile device, and find all your bookings gone !!!
+Reply: Hi Venky, We are sorry to hear about your experience. We would like to investigate the issue and help you out accordingly, do share the screenshot of the screen. Kindly share your organisation name and employee id at app@moveinsync.com. Thanks, MIS Team (26 Aug 2019)
+
+[R105]
+Date: 1 May 2019
+Stars: unknown
+Helpful: 0
+Themes: UI_REDESIGN, LOGIN_OTP, FEATURE_REQUEST, POSITIVE
+Sentiment: Mixed
+Text: Looks like the mobile app is in the beta stage. Here is my advice to make it more professional: 1. No way to go back after clicking on user name text box in login screen. 2. No option to edit profile and address data after login. 3. Login and log out button should not be there in the schedule screen. Which is currently not functional. But overall concept would be good for us if you can cover most of the areas in Bengaluru where there is no public transport connectivity. Keep up the good work.
+Reply: none
+
+[R106]
+Date: 26 Mar 2019
+Stars: unknown
+Helpful: 0
+Themes: NOTIFICATIONS, FEATURE_REQUEST
+Sentiment: Negative
+Text: it used send a push notification 30 mins before the scheduled logout, not getting that anymore. As ours is not shift based, we schedule our log out dynamically, and miss or forget the logout time scheduled if we are in middle of some work. Notification was always helpful to wrap up due to 30 mins headsup. Please enable it back!
+Reply: none
+
+[R107]
+Date: 20 Dec 2018
+Stars: 2
+Helpful: 6
+Themes: BOOKING, APP_CRASH_OPEN, SUPPORT
+Sentiment: Negative
+Text: It hasn't worked once since I installed. Trying to book a schedule keeps saying "there are no schedules available to book." I got a call directly from their sales/dev team who told that I need to buy a package first. The only way to do that is from within the app, which also never loads, failing with "Some error while fetching packages.." Sent them screenshots as requested. But finally they come up with "Sir it's a version issue because U have android 6." Ever heard of logging, MoveInSync team?
+Reply: Hi User, We are sorry about your faced experience. We have already fixed this issue and will be releasing it very soon. Please mention your name and organisation name at app@moveinsync.com for further investigation. Kindly share your registered phone number so that we can call you up if we need more information. Regards, Pratyusha (20 Dec 2018)
+
+[R108]
+Date: 29 Oct 2018
+Stars: 1
+Helpful: 70
+Themes: LOCATION_ETA, SUPPORT
+Sentiment: Negative
+Text: The only purpose of this app is to help real time tracking of the cab, which never happens, it always gets stuck at some point and then i have to keep calling my transport department to get the location of cab. Not expected out of such time bounded work we do and need to reach on time to work, this causes a lot of issue with missing the cab. Please fix the bugs!
+Reply: Hi Pooja, We regret the inconvenience caused. Kindly share your organisation name and employee id at app@moveinsync.com so that we can investigate the issue and help you accordingly. Thanks, Pratyusha (29 Oct 2018)
+
+################################################################################
+REVIEWS - DATE NOT VISIBLE IN SOURCE
+################################################################################
+
+[R109]
+Date: unknown (likely 2025; appeared with 23 helpful votes)
+Stars: unknown
+Helpful: 23
+Themes: UI_REDESIGN, NO_SHOW, BOOKING
+Sentiment: Negative
+Text: Under Bookings "Login and logouts" interface are very confusing. I don't know why they have made it so complicated. Under a particular date there should be "Login and Logout" in this app under a date it's "Logout and Login" which makes users very confusing which will impact to "No Show". It's not user friendly and this app needs a smart upgrade. Especially it's very complicated for night shift employees.
+Reply: none
+
+[R110]
+Date: unknown (likely mid 2026; appeared just above the 30 Jul 2026 review)
+Stars: unknown
+Helpful: 0
+Themes: RATING_FEEDBACK, NOTIFICATIONS
+Sentiment: Negative
+Text: worst app. no feedback link. message comes wrongly before the vehicle arrives or reaches destination
+Reply: none
+
+################################################################################
+END OF FILE - 110 reviews
+################################################################################
