@@ -42,7 +42,7 @@ def main():
     print("2. Snapshot Trend: Stable at 4.64 (-0.01 delta vs prior snapshot; +29 total ratings, +11 added to the 1-star tail).")
     print("3. Tail Concentration: 85.5% of commuters give 5 stars, but the critical problem is the 8,164-review 1-2 star tail (7.1%).")
     print("4. Top Issue #1: LOGIN_OTP (17.3% of negative reasons, 245 reviews) - auto-logout loops, empty response body, and missing OTP input fields.")
-    print("5. Top Issue #2: APP_CRASH_OPEN (10.4% of negative reasons, 147 reviews) - immediate launch crashes and 'app not installed' errors on recent builds.")
+    print("5. Top Issue #2: APP_CRASH_OPEN (10.4% of negative reasons, 147 reviews) - launch crashes, with monthly spikes in Aug 2026 (13.0%) and Sep 2026 (19.1%).")
     print("6. Top Issue #3: LOCATION_ETA (10.2% of negative reasons, 145 reviews) - frozen cab markers and jumping arrival estimates causing missed pickups.")
     print("7. Release Diagnostics: In v12.19.0 (n=102), 1-2 star share rose from 29.8% to 35.3%, but confidence intervals overlap with neighbours (evidence is inconclusive).")
     print("8. Support Alert: Developer reply rate on 1-2 star reviews is only 4.1% with a slow 6.2-day median delay; 26.2% of replies are canned.")

@@ -41,8 +41,8 @@ Deliver a crisp, executive-ready walkthrough of the MoveInSync Reviews Intellige
 ### [0:50 – 1:15] Release Diagnostics & Spike Detection
 - **Visual:** Navigate to **Releases** tab in Streamlit; hover over version chart and spike table.
 - **Narrator:**
-  > *"Our pipeline tracks releases chronologically. In our release diagnostics, we flagged five specific builds where average ratings dropped more than 0.25 stars below neighboring releases—including version 12.0, 12.3, and most recently 12.19.0, which plummeted to a 2.77 rating.
-  > Our automated spike detection reveals why: version 12.19 coincided with a sharp spike in launch crashes, accounting for 19.1% of all reviews that month. This proves that release instability directly depresses our Play Store store standing."*
+  > *"Our pipeline tracks releases chronologically. In our version quality analysis, version 12.19.0 saw its 1-2 star share rise to 35.3%, but confidence intervals overlap with neighbours, making the version drop inconclusive.
+  > Instead, our automated monthly spike detection flags actionable spikes: in September 2026, launch crashes surged to 19.1% of reviews, and in August to 13.0%, pinpointing exact moments of commuter friction."*
 
 ---
 
@@ -57,5 +57,5 @@ Deliver a crisp, executive-ready walkthrough of the MoveInSync Reviews Intellige
 ### [1:40 – 2:00] The Action Plan & One-Command Automation
 - **Visual:** Show `RECOMMENDATIONS.md` prioritized fix table, then terminal running `python run_all.py`.
 - **Narrator:**
-  > *"In our RECOMMENDATIONS document, we outline quick wins for tomorrow: extending login token lifetimes, fixing dynamic split bundles, and enforcing geofenced proof before drivers can mark a commuter as No-Show. Resolving the top 3 themes yields a realistic rating lift of +0.06 to +0.08 stars.
+  > *"In our RECOMMENDATIONS document, we outline quick wins for tomorrow: extending login token lifetimes, fixing dynamic split bundles, and enforcing geofenced proof before drivers can mark a commuter as No-Show. Resolving the top 3 themes yields a realistic rating lift of +0.06 to +0.09 stars.
   > The entire pipeline runs via a single command—`python run_all.py`—and schedules automatically every week via GitHub Actions. Thank you!"*

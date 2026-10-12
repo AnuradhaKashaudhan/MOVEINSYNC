@@ -539,7 +539,7 @@ def generate_html_report():
                             <td><span class="theme-pill pill-high">P0</span></td>
                             <td><strong>OTP &amp; Session Lockout</strong></td>
                             <td>245 reviews (17.3% reasons), #1 volume leader</td>
-                            <td>Extend token lifetime to 30 days; decouple SOS from auth state</td>
+                            <td>Extend token lifetime to 30 days (proposed parameter); decouple SOS from auth state</td>
                             <td>Medium</td>
                             <td>Mobile Auth</td>
                             <td class="num" style="color: #34d399;">+0.030 to +0.034</td>
@@ -548,7 +548,7 @@ def generate_html_report():
                             <td><span class="theme-pill pill-high">P0</span></td>
                             <td><strong>Launch Crash / App Not Installed</strong></td>
                             <td>147 reviews (10.4% reasons), #2 volume leader</td>
-                            <td>Fix Play Core dynamic split corruption; audit Android splash screen crash</td>
+                            <td>Fix Play Core dynamic split corruption (hypothesis to verify, not established by reviews); audit Android splash screen transitions (hypothesis to verify, not established by reviews)</td>
                             <td>Small</td>
                             <td>Core Android</td>
                             <td class="num" style="color: #34d399;">+0.018 to +0.025</td>
@@ -557,7 +557,7 @@ def generate_html_report():
                             <td><span class="theme-pill pill-high">P0</span></td>
                             <td><strong>Live Location &amp; ETA Drift</strong></td>
                             <td>145 reviews (10.2% reasons), #3 volume leader (#1 thumbs up)</td>
-                            <td>MQTT driver telemetry ping every 5s with Kalman filter smoothing</td>
+                            <td>MQTT driver telemetry ping every 5s with Kalman filter smoothing (hypothesis to verify, not established by reviews)</td>
                             <td>Large</td>
                             <td>Maps / Geolocation</td>
                             <td class="num" style="color: #34d399;">+0.018 to +0.028</td>
@@ -566,7 +566,7 @@ def generate_html_report():
                             <td><span class="theme-pill pill-med">P1</span></td>
                             <td><strong>Unfair No-Show Penalties</strong></td>
                             <td>36 reviews (2.5% reasons), low volume / high-anger distress</td>
-                            <td>Enforce driver geofence check before enabling No-Show; self-check-in</td>
+                            <td>Enforce driver geofence check (50m, 3 min dwell; proposed parameters) before enabling No-Show; self-check-in</td>
                             <td>Small</td>
                             <td>Product / Ops</td>
                             <td class="num" style="color: #34d399;">+0.004 to +0.008</td>
@@ -596,6 +596,7 @@ def generate_html_report():
                 <li><strong>Near-Duplicate Reviews:</strong> Scanning reviews with at least 15 words and cosine similarity > 0.85 yielded {duplicates.get('total_pairs_flagged', 0)} pairs (possible templated text, not verified).</li>
                 <li><strong>Model Validation:</strong> Independent evaluation on n=70 held-out reviews (never shown to model) demonstrated a 98.6% theme match rate and a 77.5% macro F1 score across active themes using gemini-3.5-flash-lite.</li>
                 <li><strong>Causal Attribution:</strong> Version coincidences reflect observed statistical correlation in review counts and release dates. External hypotheses are labeled <em>hypothesis, not verified</em> unless confirmed by internal telemetry.</li>
+                <li><strong>Validation Limits:</strong> Evaluated on n=70 held-out reviews labeled by a single annotator. Seed reviews are longer than typical reviews. Weak F1 was observed for DRIVER_CONTACT (50%) and ROUTING_STOPS (44%), so those counts are probably undercounted. NO_SHOW precision is 50% in the multi-label view.</li>
             </ul>
         </div>
 

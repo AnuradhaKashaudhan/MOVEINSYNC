@@ -14,7 +14,7 @@
 
 **(1:10 - 1:40) The Deliverables: Dashboard & Report**
 *(Visual: Switch to Streamlit dashboard in browser. Click through the 'Why Ratings are Low' tab, then open `ratings_report.html`)*
-"The output isn't just a spreadsheet. The pipeline auto-generates a clean Streamlit dashboard and a standalone HTML report. Product managers can instantly see that Android 17 crashes and inaccurate ETAs are driving the most 1-star reviews, complete with real, anonymized user quotes."
+"The output isn't just a spreadsheet. The pipeline auto-generates a clean Streamlit dashboard and a standalone HTML report. Product managers can instantly see that launch crashes, OTP login issues, and inaccurate ETAs are driving the most 1-star reviews, complete with real, anonymized user quotes."
 
 **(1:40 - 2:00) The Outcome**
 *(Visual: Open `RECOMMENDATIONS.md` showing the prioritized table)*
