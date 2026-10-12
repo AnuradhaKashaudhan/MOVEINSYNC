@@ -334,7 +334,10 @@ moveinsync-ratings/
 │   └── theme_quotes.json         # Curated commuter quotes by friction theme
 │
 ├── scripts/
-│   └── dev/                      # Internal calibration and migration utilities
+│   └── dev/
+│       ├── apply_stage_a_fixes.py
+│       ├── benchmark_pipeline.py # Pipeline latency benchmark utility
+│       └── tag_to_threshold.py
 │
 ├── analyze_reviews.py            # Gemini 3.5 Flash Lite batch classification engine
 ├── build_report.py               # Self-contained HTML report compiler
@@ -346,9 +349,14 @@ moveinsync-ratings/
 ├── run_all.py                    # Master pipeline orchestrator with 10-line executive readout
 ├── validate_seeds.py             # Ground-truth validation script (Macro F1: 77.5%)
 ├── verify_numbers.py             # Gate 4 consistency assertion suite (31 checks)
+├── test_data_integrity.py        # Automated test suite for review dataset schema
 ├── test_near_duplicates.py       # Unit tests for TF-IDF duplicate review detector
+├── test_pipeline_e2e.py          # Integration test suite for output artifacts
+├── test_theme_taxonomy.py        # Unit tests for theme taxonomy cleaning
 ├── test_version_drops.py         # Unit tests for Wilson score 95% CI drop algorithm
 │
+├── CHANGELOG.md                  # Release version milestones and change logs
+├── CONTRIBUTING.md               # Developer guide and taxonomy extension standards
 ├── DEMO_SCRIPT.md                # 2-minute executive walkthrough presentation script
 ├── IMPLEMENTATION.md             # Complete technical architecture & implementation reference
 ├── README.md                     # High-level overview and quick-start guide
