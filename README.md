@@ -6,10 +6,12 @@ An end-to-end, LLM-powered feedback intelligence platform that continuously scra
 
 ## 🚀 3-Command Quick Start
 
+> **Note:** Run from the repository root; set `GEMINI_API_KEY` in a local `.env` file (not committed).
+
 ```bash
 # 1. Clone repository and install pinned dependencies
-git clone https://github.com/your-username/moveinsync-ratings.git
-cd moveinsync-ratings
+git clone https://github.com/AnuradhaKashaudhan/MOVEINSYNC.git
+cd MOVEINSYNC
 pip install -r requirements.txt
 
 # 2. Run the end-to-end pipeline (collect -> analyze -> report)
