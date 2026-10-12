@@ -1,5 +1,10 @@
 # MoveInSync Play Store Reviews Intelligence Pipeline
 
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/streamlit-1.55+-FF4B4B.svg)](https://streamlit.io/)
+[![Gemini](https://img.shields.io/badge/model-gemini--3.5--flash--lite-green.svg)](https://ai.google.dev/)
+[![Status](https://img.shields.io/badge/validation-Gate%204%20Passed-success.svg)](verify_numbers.py)
+
 An end-to-end, LLM-powered feedback intelligence platform that continuously scrapes, audits, tags, and analyzes commuter reviews for the MoveInSync Android application (`com.moveinsync.ets`).
 
 ---
